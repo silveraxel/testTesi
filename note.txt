@@ -1,0 +1,46 @@
+PATTERN ESISTENTI 
+    if( EMISSIONE(i+1)!=0  && EMISSIONE(i)!=0){
+        val=EMISSIONE(i+1)/EMISSIONE(i);
+    }else{
+        val=EMISSIONE(i+1);
+    }
+
+    switch(val){
+        case 0:
+            PATTERN 0 ===> non ci sono state emissioni
+            break;
+        case 1:
+            PATTERN 1 ===> le emissioni sono rimaste costanti dal giorno precedente
+            break;
+        case <1:
+            PATTERN 4 ===> le emissioni sono quasi rimaste costanti dal giorno precedente ma sono diminuite
+            break;
+        case <2:
+            PATTERN 5 ===> le emissioni sono quasi rimaste costanti dal giorno precedente ma sono aumentate
+            break;
+        case <10: // le emissioni sono aumentate in modo lineare con una costante minore di 10
+            PATTERN 2 ===> le emissioni sono lineari con una costante minore di 10
+            break;
+        case >10: // le emissioni sono aumentate in modo lineare con una costante maggiore di 10
+            PATTERN 3 ===> le emissioni sono lineari con una costante maggiore di 10
+            break;   
+    }
+
+
+
+Per la settimana da 2019-02-11 a 2019-02-17
+
+    Avremo le seguenti emissioni in questi giorni: lun(0) mar(0) mer(177) giov(0) ven(0) sab(3064) dom(12306) 
+
+    secondo il funzionamento di PATTERN ESISTENTI avremo che val[0, 0, 177, 0, 0, 3064, 4.016] 
+    allora in base a quello che abbiamo detto in precedenza PATTERN[0,0,3C,0,0,3C,2C] //la C significa che cresce e la D significa che decresce  
+    
+
+Per la settimana da 2019-02-18 a 2019-02-24
+
+    Avremo le seguenti emissioni in questi giorni: lun(8773.0) mar(11962.0) mer(23821.0) giov(7761.0) ven(15156.0) sab(8121.0) dom(6905.0)
+
+    Supponiamo di non aver avuto emissioni il giorno prima di lunedi
+    secondo il funzionamento di PATTERN ESISTENTI avremo che val[8773.0, 1.364, 1.991, 0.326, 1.953, 0.536, 0.850  ]
+    allora in base a quello che abbiamo detto in precedenza PATTERN[3C,5C,5C,4D,5C,4D,4D] //la C significa che cresce e la D significa che decresce  
+ 
