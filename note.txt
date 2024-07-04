@@ -1,29 +1,53 @@
 PATTERN ESISTENTI 
+    val=0;
     if( EMISSIONE(i+1)!=0  && EMISSIONE(i)!=0){
-        val=EMISSIONE(i+1)/EMISSIONE(i);
+        val(i+1)=EMISSIONE(i+1)/EMISSIONE(i);
     }else{
-        val=EMISSIONE(i+1);
+        val(i+1)=EMISSIONE(i+1);
     }
 
-    switch(val){
-        case 0:
-            PATTERN 0 ===> non ci sono state emissioni
-            break;
-        case 1:
-            PATTERN 1 ===> le emissioni sono rimaste costanti dal giorno precedente
-            break;
-        case <1:
-            PATTERN 4 ===> le emissioni sono quasi rimaste costanti dal giorno precedente ma sono diminuite
-            break;
-        case <2:
-            PATTERN 5 ===> le emissioni sono quasi rimaste costanti dal giorno precedente ma sono aumentate
-            break;
-        case <10: // le emissioni sono aumentate in modo lineare con una costante minore di 10
-            PATTERN 2 ===> le emissioni sono lineari con una costante minore di 10
-            break;
-        case >10: // le emissioni sono aumentate in modo lineare con una costante maggiore di 10
-            PATTERN 3 ===> le emissioni sono lineari con una costante maggiore di 10
-            break;   
+    if(val==0){//zero emissioni
+        if(prec==0){
+            return PATTERN 0A
+        }
+        return PATTERN 0B
+    }else if(val<=1){//emissioni che sono diminuite
+        if(val<0.20){
+            return PATTERN 1A
+        }else if(val<0.50){
+            return PATTERN 1B
+        }else if(val<0.75){
+            return PATTERN 1C
+        }else{
+            return PATTERN 1D
+        }
+    }else if(val<=2){//emissioni che sono aumentate leggermente
+        if(val<1.20){
+            return PATTERN 2A
+        }else if(val<1.50){
+            return PATTERN 2B
+        }else if(val<1.75){
+            return PATTERN 2C
+        }else{
+            return PATTERN 2D
+        }
+    }else if(val<=10){//emissioni che sono aumentate 
+        if(val<7){
+            return PATTERN 3A
+        }else{
+            return PATTERN 3B
+        }
+    }else{//val>10, emissioni che sono aumentate in modo esponenziale
+        if(prec!=0){
+            temp=media/4;
+            //andamento plausibile
+            if(EMISSIONE(i)<(media+temp))return PATTERN 4B
+            //ANDAMENTO SBALZATO TANTO
+            if(EMISSIONE(i)>=(media*10) )return PATTERN 4C
+            //ANDAMENTO SBALZATO POCO
+            return PATTERN 4D
+        }
+        return PATTERN 4A//possibile
     }
 
 
