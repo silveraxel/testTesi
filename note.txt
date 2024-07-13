@@ -8,3 +8,5 @@ TRIO BREVE,MEDIO,LUNGO (m,t,a) (b,s,a) (m,t,s) (t,s,a)
 #la funzione ciclo_pattern a differenza di ciclo_pattern_settimane_precise non si preoccupa di creare settimane precise da LUN a DOM infatti ho usato la seconda.
 Per ora crea gli array dei pattern solo con mensile e trimestre ma si puo cambiare aggiungendo una riga di codice, dopo aggiungero un pezzo di codice per scegliere 
 i tipi di "media" all inizio con il dispositivo 
+
+Per ora ho usato mensile e trimestrale pero vedendo i valori delle medie penso che sarebbe da esculdere a priori la media annuale e utilizzarne due/tre con variazioni maggiori da un periodo e l altro
