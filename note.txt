@@ -1,4 +1,6 @@
 13/07/2024
+medie breve mensile, bimestre, trimestre
+medie lungo trimestre, semestre, annuale
 COPPIE MEDIE BREVE,LUNGO (m,t) (b,t) (b,s) (t,s) (m,s) (m,a) (b,a) (t,a)
 
 TRIO BREVE,MEDIO,LUNGO (m,t,a) (b,s,a) (m,t,s) (t,s,a)
