@@ -4,5 +4,9 @@ COPPIE MEDIE BREVE,LUNGO (m,t) (b,t) (b,s) (t,s) (m,s) (m,a) (b,a) (t,a)
 TRIO BREVE,MEDIO,LUNGO (m,t,a) (b,s,a) (m,t,s) (t,s,a)
 
 #la funzione ciclo_pattern a differenza di ciclo_pattern_settimane_precise non si preoccupa di creare settimane precise da LUN a DOM infatti ho usato la seconda.
-Per ora crea gli array dei pattern solo con mensile e trimestre ma si puo cambiare aggiungendo una riga di codice, dopo aggiungero un pezzo di codice per scegliere 
-i tipi di "media" all inizio con il dispositivo 
+
+scelta_pattern_medie usa solo due medie che inserisci ogni volta te, le cobinazioni possibili sono COPPIE MEDIE BREVE,LUNGO mentre per
+scelta_pattern_medie_tre usa cobinazioni di tre medie, per avere dei pattern piu precisi conviene inserire una di queste combinazioni TRIO BREVE,MEDIO,LUNGO
+
+per avere un pattern giornaliero piu preciso, nel giorno di LUN, ogni volta portiamo anche la domenica prima di quel lunedi nella funzione 
+per avere la possibilita di fare il rapporto tra le due emissioni e analizzare il comportamento 
