@@ -12,3 +12,37 @@ scelta_pattern_medie_tre usa cobinazioni di tre medie, per avere dei pattern piu
 
 per avere un pattern giornaliero piu preciso, nel giorno di LUN, ogni volta portiamo anche la domenica prima di quel lunedi nella funzione 
 per avere la possibilita di fare il rapporto tra le due emissioni e analizzare il comportamento 
+
+30/07/2024
+
+Per 8 giorni( giorni per trovare il pattern della settimana) di dati avremo:
+    691200 secondi ==> per intervalli di X secondi
+        10s avremo 69120 tick
+        20s avremo 34560 tick
+        30s avremo 23040 tick
+        5s avremo 138240 tick
+    11520 minuti ==> per intervalli di X minuti
+        10m avremo 1152 tick
+        5m avremo 2304 tick
+        2m avremo 5760 tick
+        15m avremo 768 tick
+
+Il programma puo avere un max di 1000 tick senno warning, per evitare questo si devono raggruppare i dati in intervalli di minino 770s
+che sono 12,83m ma questo non implica che non possa rapprensentare i dati in intervalli minori
+
+OSSERVAZIONI SUI GRAFICI( plotpattern.ipynb )
+Possibili grafici per le emissioni: 
+    X ogni secondo, precisione maggiore e molto granulato 
+    X ogni intervallo di X secondi, ci conviene utilizzare intervalli di 30 secondi per avere una buona granulita e un numero piu ristretto di 
+    valori( 691200[secondi in 8 giorni] / 30[intervalli] = 23040[valori dove lavoriamo] )
+
+Per rappresentare meglio questo intervallo conviene usare la media delle emissioni e non la somma perche rende piu pulito 
+il grafico e quindi comprensibile inoltre moltiplicando la media per 30 avremo un valore simile alla somma delle emissioni 
+in quell'intervallo.
+Il campionamento non conviene per rapprensentare le emissioni perche' e' troppo casuale e non ci garantisce una sorta di sicurezza.
+Nella funzione range_plot ho inserito oltre al grafico della media(ROSSO) il grafico con le emissioni totali(BLU) ma avendo il blocco di 1000 tick
+sull'asse x e quindi risulta molto confuso per emissioni molto vicine.
+Avere un massimo di 1000 tick ci porta ad avere un tick ogni 770 secondi sull'asse x.
+Osservazione sul grafico della media in base alle emissioni:
+    emissioni basse nell'intervallo, media circa 0 quindi graficamente poco visibile se di fianco alle emissioni totali
+    emissioni alte nell'intervallo, il grafico della media e' molto piu' comprensibile di quello della somma
