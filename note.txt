@@ -46,3 +46,167 @@ Avere un massimo di 1000 tick ci porta ad avere un tick ogni 770 secondi sull'as
 Osservazione sul grafico della media in base alle emissioni:
     emissioni basse nell'intervallo, media circa 0 quindi graficamente poco visibile se di fianco alle emissioni totali
     emissioni alte nell'intervallo, il grafico della media e' molto piu' comprensibile di quello della somma
+
+09/08/2024
+
+Def parti stringa del pattern:
+    X media corto==> cA .. cD e CA .. CD
+    X media medio==> mA .. mD e MA .. MD
+    X media lungo==> lA .. lD e LA .. LD
+    X rapporto emissioni:
+        # zero emissioni
+            #solitamente il LUN "0A"
+            "0B"
+    # emissioni diminuite
+            "1A"
+            "1B"
+            "1C"
+            "1D"
+    # emissioni aumentate leggermente
+            "2A"
+            "2B"
+            "2C"
+            "2D"
+    # emissioni aumentate
+            #<7 "3A"
+            "3B" 
+
+    if i>0: pattern_day+= "4B" #valore un po strano
+    else: pattern_day+= "4A" # possibile, probabilmente LUN
+
+11/08/2024 
+Windows nella stessa directory pensa che un file "ciao.pdf" e "CIAO.pdf" siano lo stesso file quindi ho cambiato le combinazioni dei pattern,
+ non fa differenza tra lowercase e uppercase. Quindi al posto di cA .. cD e CA .. CD uso CA .. CH
+
+
+
+#Nuovi nomi del pattern= count pattern
+key==127
+DOM: 51
+CHMALH0A: 72
+CAMALH0A: 21
+CAMALH4B: 6
+CAMALH0B: 14
+CCMDLH4B: 1
+CGMHLH1C: 2
+CHMHLH2B: 3
+CHMHLH2D: 5
+CFMHLH1B: 1
+CHMHLH2C: 1
+CGMHLH1B: 1
+CEMHLH1C: 1
+CDMGLH1D: 3
+CFMHLH1D: 2
+CDMGLH1C: 3
+CCMDLH1C: 1
+CCMDLH2A: 1
+CFMHLH2C: 3
+CAMBLH1A: 1
+CEMGLH3A: 1
+CDMFLH1C: 1
+CEMHLH2B: 6
+CFMHLH2B: 1
+CAMALH1A: 9
+CDMGLH3B: 1
+CDMGLH2A: 2
+CDMFLH1A: 1
+CHMHLH3A: 13
+CCMDLH1B: 2
+CFMHLH3A: 2
+CCMDLH1D: 2
+CHMHLH3B: 1
+CBMELH1A: 1
+CCMFLH2B: 1
+CDMHLH2B: 2
+CDMHLH1C: 1
+CBMDLH4B: 1
+CCMELH2C: 1
+CBMDLH1D: 1
+CEMHLH3A: 3
+CFMHLH2A: 1
+CEMHLH3B: 1
+CDMHLH1D: 1
+CBMCLH1A: 1
+CDMHLH3A: 1
+CFMHLH4B: 1
+CAMALH2A: 1
+CDMHLH3B: 2
+CCMFLH1D: 1
+CHMHLH4B: 1
+CCMELH1A: 1
+CDMGLH2B: 1
+CDMFLH1D: 1
+CCMFLH1C: 1
+CCMFLH2A: 1
+CDMHLH4B: 1
+CBMDLH1C: 1
+CGMHLH3A: 1
+CGMHLH2A: 1
+CBMDLH1B: 1
+CDMHLH2A: 2
+CBMGLH1B: 1
+CCMHLH2B: 1
+CCMHLH1D: 2
+CBMGLH1C: 1
+CBMDLH1A: 2
+CEMHLH2A: 2
+CCMHLH2C: 2
+CEMHLH2C: 1
+CCMHLH1B: 1
+CEMCLH1C: 1
+CAMALH1B: 1
+CEMCLH3A: 1
+CCMBLH1C: 1
+CHMELH4B: 1
+CFMDLH2B: 1
+CDMBLH1C: 1
+CGMDLH3A: 1
+CCMBLH1B: 2
+CEMCLH1B: 1
+CDMBLH1B: 1
+CHMELH3A: 1
+CCMBLH2A: 2
+CDMCLH2B: 1
+CDMCLH1D: 3
+CDMBLH1D: 1
+CCMBLH3A: 2
+CEMCLH2C: 1
+CFMDLH2C: 1
+CHMCLH1C: 1
+CHMGLH3A: 1
+CDMBLH1A: 1
+CDMALH1D: 1
+CCMALH1C: 1
+CGMBLH3A: 1
+CDMALH4B: 2
+CFMBLH4B: 1
+CFMBLH2A: 1
+CCMALH1B: 1
+CHMDLH3A: 1
+CEMBLH4B: 1
+CGMELH3A: 5
+CDMCLH4B: 1
+CBMBLH1C: 1
+CEMDLH3A: 1
+CBMBLH1B: 5
+CCMBLH4B: 2
+CEMDLH1C: 1
+CEMDLH1D: 1
+CDMCLH1C: 1
+CHMFLH1C: 1
+CFMDLH1C: 1
+CCMCLH1C: 2
+CHMFLH3A: 1
+CGMELH1D: 1
+CDMDLH1C: 2
+CEMELH2B: 2
+CBMBLH4B: 1
+CGMGLH3A: 1
+CEMELH1C: 1
+CCMCLH1B: 1
+CCMDLH2B: 1
+CBMBLH2B: 1
+CEMFLH3A: 1
+CCMCLH2B: 1
+CDMDLH2B: 1
+CFMFLH1D: 1

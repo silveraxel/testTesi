@@ -1,0 +1,168 @@
+IN TUTTI E DUE I CASI PER VERIFICARE I GRAFICI LI HO STAMPATI SU UN PDF, QUINDI AVREMO TUTTI I GRAFICI CON LO STESSO PATTERN SUL FILE pattern.pdf
+l'algoritmo comportamento stampa i grafici nella cartella patterngrafico e  l'algoritmo plotpattern stampa i grafici nella cartella plotgrafico 
+
+ALGORITMO CON LE MEDIE, RAPPORTO EMISSIONI TOTALI
+PATTERN:(127 KEY)
+{'DOM': 51, 'CHMALH0A': 72, 'CAMALH0A': 21, 'CAMALH4B': 6, 'CAMALH0B': 14, 'CCMDLH4B': 1, 'CGMHLH1C': 2, 'CHMHLH2B': 3, 'CHMHLH2D': 5, 'CFMHLH1B': 1, 'CHMHLH2C': 1, 'CGMHLH1B': 1, 'CEMHLH1C': 1, 'CDMGLH1D': 3, 'CFMHLH1D': 2, 'CDMGLH1C': 3, 'CCMDLH1C': 1, 'CCMDLH2A': 1, 'CFMHLH2C': 3, 'CAMBLH1A': 1, 'CEMGLH3A': 1, 'CDMFLH1C': 1, 'CEMHLH2B': 6, 'CFMHLH2B': 1, 'CAMALH1A': 9, 'CDMGLH3B': 1, 'CDMGLH2A': 2, 'CDMFLH1A': 1, 'CHMHLH3A': 13, 'CCMDLH1B': 2, 'CFMHLH3A': 2, 'CCMDLH1D': 2, 'CHMHLH3B': 1, 'CBMELH1A': 1, 'CCMFLH2B': 1, 'CDMHLH2B': 2, 'CDMHLH1C': 1, 'CBMDLH4B': 1, 'CCMELH2C': 1, 'CBMDLH1D': 1, 'CEMHLH3A': 3, 'CFMHLH2A': 1, 'CEMHLH3B': 1, 'CDMHLH1D': 1, 'CBMCLH1A': 1, 'CDMHLH3A': 1, 'CFMHLH4B': 1, 'CAMALH2A': 1, 'CDMHLH3B': 2, 'CCMFLH1D': 1, 'CHMHLH4B': 1, 'CCMELH1A': 1, 'CDMGLH2B': 1, 'CDMFLH1D': 1, 'CCMFLH1C': 1, 'CCMFLH2A': 1, 'CDMHLH4B': 1, 'CBMDLH1C': 1, 'CGMHLH3A': 1, 'CGMHLH2A': 1, 'CBMDLH1B': 1, 'CDMHLH2A': 2, 'CBMGLH1B': 1, 'CCMHLH2B': 1, 'CCMHLH1D': 2, 'CBMGLH1C': 1, 'CBMDLH1A': 2, 'CEMHLH2A': 2, 'CCMHLH2C': 2, 'CEMHLH2C': 1, 'CCMHLH1B': 1, 'CEMCLH1C': 1, 'CAMALH1B': 1, 'CEMCLH3A': 1, 'CCMBLH1C': 1, 'CHMELH4B': 1, 'CFMDLH2B': 1, 'CDMBLH1C': 1, 'CGMDLH3A': 1, 'CCMBLH1B': 2, 'CEMCLH1B': 1, 'CDMBLH1B': 1, 'CHMELH3A': 1, 'CCMBLH2A': 2, 'CDMCLH2B': 1, 'CDMCLH1D': 3, 'CDMBLH1D': 1, 'CCMBLH3A': 2, 'CEMCLH2C': 1, 'CFMDLH2C': 1, 'CHMCLH1C': 1, 'CHMGLH3A': 1, 'CDMBLH1A': 1, 'CDMALH1D': 1, 'CCMALH1C': 1, 'CGMBLH3A': 1, 'CDMALH4B': 2, 'CFMBLH4B': 1, 'CFMBLH2A': 1, 'CCMALH1B': 1, 'CHMDLH3A': 1, 'CEMBLH4B': 1, 'CGMELH3A': 5, 'CDMCLH4B': 1, 'CBMBLH1C': 1, 'CEMDLH3A': 1, 'CBMBLH1B': 5, 'CCMBLH4B': 2, 'CEMDLH1C': 1, 'CEMDLH1D': 1, 'CDMCLH1C': 1, 'CHMFLH1C': 1, 'CFMDLH1C': 1, 'CCMCLH1C': 2, 'CHMFLH3A': 1, 'CGMELH1D': 1, 'CDMDLH1C': 2, 'CEMELH2B': 2, 'CBMBLH4B': 1, 'CGMGLH3A': 1, 'CEMELH1C': 1, 'CCMCLH1B': 1, 'CCMDLH2B': 1, 'CBMBLH2B': 1, 'CEMFLH3A': 1, 'CCMCLH2B': 1, 'CDMDLH2B': 1, 'CFMFLH1D': 1}
+Con questo algoritmo ci ritroviamo molte volte con grafici opposti con lo stesso pattern e quindi dei sottogruppi per ogni pattern
+
+20/08/2024 
+PATTERN DIVERSI{ 108:108 }
+ALGORITMO CHE CONTROLLA OGNI SINGOLO INTERVALLO(770S) DELLA GIORNATA E VERIFICA IL NUMERO DI INTERVALLI E LA LORO LUNGHEZZA E POI CALCOLA LO SPAZIO TRA 
+I MOMENTI DI UTILIZZO DEL DISPOSITIVO. In generale l'algoritmo e' piu preciso del primo e i vari giorni con lo stesso pattern sono simili come comportamento.
+TO DO1: Bisogna aggiungere un pezzo di codice che verifichi l'intesita delle emissioni che potrebbe essere un misto tra il primo algortimo o qualcosa di nuovo.
+TO DO2: Bisogna aumentare la precisione della grandezza degli intervalli e spazi tra di essi ma questo implicherebbe avere piu' pattern di quelli che abbiamo ora, cosi abbiamo 108 pattern differenti presenti
+    /////CODICE/////////
+    count_l=0
+    count_m=0
+    count_p=0
+    for i in range(len(intervals) - 1):
+        ris=int(( (intervals[i+1][0]).to_pydatetime() - (intervals[i][1]).to_pydatetime() ).total_seconds()/770)
+        IF RIS>...
+        IF RIS>...
+        if ris>3: count_l += 1#intervallo di tempo LUNGO
+        elif ris>1:  count_m += 1#intervallo di tempo MEDIO
+        else: count_p += 1#intervallo di tempo PICCOLO
+    ///////////////////////
+TO DO3: In alcuni grafici ci ritroviamo delle emissioni quasi nulle che ci vanno a portare ad avere diversi tipi di pattern che io leverei se dobbiamo creare un comportamento generale, io in questa osservazione
+ho levato tutte le emissioni sotto al 1% dell'emissione di picco della giornatat ma forse conviene anche di piu' (2/3)
+    /////CODICE/////////
+    df= df_dispositivo_sec[start_date:end_date]
+    df_max =df.resample('30S').mean()
+    max_value = df_max['consumption'].max()
+    und_value=(max_value/100)*perc_val
+    #ELIMINO TUTTE LE EMISSIONI INFERIORI A UNA CERTA SOGLIA
+    for index, row in df.iterrows():
+        if row['consumption'] < und_value:
+            df.at[index, 'consumption'] = 0
+    ///////////////////
+TO DO4: Non so se possa essere utile ma si potrebbe dividere la giornata in periodi (mattina,...) e inserirli nella costruzione del pattern perche' potrebbe diversificare molto tutti quei pattern con pochi intervalli
+    o con intervalli concentrati 
+
+Come leggerai dai nomi dei pattern e dal codice solo per giornate con meno di 4 intervalli controllo la grandezza degli intevalli e li stampo nel 'nome' del pattern perche' richiederebbe troppo tempo per tutti visto che 
+ogni volta che eseguivo il codice ci metteva 30m , se riesci a trovare un modo per rendere il programma piu' veloce sarebbe bellissimo 
+
+PATTERN, OCCORRENZE, ANALISI SUI GRAFICI
+leggenda: 
+    asi(casi in cui lo spazio tra intervalli grandi(spazio >3) e' molto differnte in grafici con lo stesso pattern ma si puo risolvere con il TODO2 )
+    id(intensita' dei segnali differente ma che si puo' risolvere nel TODO1)    
+    ap(aggiungere periodi per rendere piu' specifi i pattern TODO4)
+    se non ci sta niente dopo il nome ==> perfetto cosi
+{
+    '0': 124, EMISSIONI PARI A 0 TUTTO IL GIORNO
+    '1P_S0': 4, ID-AP aiuterebbe a differenziare maggiormente i grafici
+    '3PMM_S2f': 1, 
+    '6_S2a': 5, ID-AP
+                2FIG 5INT=6INT=0 (la seconda figura ha il 5 e il 6 intervallo con emissioni quasi a 0)
+                4FIG  1INT=0
+                5FIG 1INT=2INT=0
+    '3LPP_S0': 2, ASI
+    '2LM_S0': 3, ID-ASI
+    '8_S2c': 3, 
+    '5_S1a': 5, ASI-ID 2FIG 2INT=0
+    '9_S2a': 3, ID 3FIG 6INT=0
+    '5_S0': 6, ASI-ID 2FIG,3FIG UN INTERVALLO BASSO
+    '3MPP_S2f': 2, 
+    '9_M1c': 1, 3INT=0
+    '3LMP_S0': 3, ASI-ID
+    '6_M1d': 2, 2FIG 3INT=5INT=0 
+    '4_S2a': 11, ASI-ID-AP 10FIG 3INT=0
+    '5_S1f': 7, ASI 2FIG 1INT=3INT=0
+    '5_S2a': 4, ID-ASI
+    '2MP_S0': 8, ID-ASI 
+    '3PPL_S0': 1, 
+    '3MMP_S2a': 1, 
+    '1M_S0': 8, ID-AP
+    '3PPL_P1c': 1, 
+    '7_S2f': 3, ID-ASI 3FIG 5INT=7INT=0
+    '2PP_P1a': 2, 2FIG HA UN EMISSIONE QUASI NULLA 
+    '2MM_S0': 6, ID-ASI 
+    '8_S2f': 3, 1FIG 2INT=4INT=0 2FIG 2INT=0 3FIG 3INT=0 
+    '3PPM_S0': 1, ASI - 2INT=0
+    '4_S0': 7, ID-ASI 3FIG 4INT=0
+    '13_M1d': 1, 6INT=7INT=13INT=0 
+    '3PLM_S0': 1, 
+    '8_S1a': 5, ASI-ID 3FIG 1INT=0 4FIG 2INT=0
+    '8_S2a': 2, 
+    '8_S0': 1, 3INT=0
+    '2PP_S0': 8, 1FIG 1INT=0 ID-ASI-AP
+    '2LP_S0': 1, DIVERSIFICARE MAGGIORMENTE LA GRANDEZZA DEGLI INTERVALLI
+    '3MPP_S0': 2, ASI-ID
+    '2PL_P1a': 1, 
+    '3MMM_S0': 1, 
+    '7_S2d': 1, INT6=0
+    '7_S1a': 2, ID-ASI
+    '3MMM_S2f': 1, ASI
+    '7_S1f': 4, ID-ASI
+    '7_S2c': 5, ID
+        FIG1 3INT=0 FIG2 1INT=0 3FIG 3INT=0 4FIG 7INT=0
+    '5_M1f': 1, 
+    '3PMP_S2f': 2, 
+    '5_M1c': 1, 2INT=0
+    '6_S0': 2, ASI-ID
+    '9_M1b': 1, 2INT=9INT=0
+    '2MM_P1f': 1,  
+    '6_S1a': 2, ASI
+    '4_M1c': 2, 
+        1FIG 3INT=4INT=0
+        2FIG 1INT=0
+    '6_S2f': 1, 2INT=0
+    '2PL_S0': 1, 
+    '3MPM_S0': 2, ID-ASI
+    '2MP_P1f': 2, 
+    '3PPP_S2a': 1, 
+    '1L_S0': 2, INTERVALLO GRANDE SINGOLO
+    '4_S2f': 10, ASI-ID
+    '6_S2c': 2, ID-ASI
+    '9_S2c': 3, ASI-ID 2FIG 3INT=0 3FIG 1INT=0
+    '4_M1f': 2, ID-ASI
+    '5_M1d': 3, ID-ASI 
+        2FIG 1INT=2INT=3INT=0
+        3FIG 5INT=0
+    '7_M1b': 2, ASI-ID 2FIG 1INT=0 
+    '12_S2c': 1, 
+    '8_M1c': 1, 
+    '10_M1c': 1, 
+    '6_M1a': 2, ID 1FIG EMISSIONE NULLA CONTINUA UN INTERVALLO
+    '10_M2c': 1, 
+    '3MMM_P1c': 1, 
+    '16_M1d': 1, 
+    '11_S2c': 1, 11INT=0 
+    '12_S2d': 2, ASI-ID 1FIG 2INT=0  2FIG 5INT=1INT=0
+    '11_M2c': 1, ASI
+    '3MPP_S2a': 1, ASI
+    '9_S1c': 2, ASI-ID
+    '12_M1a': 1, INT1=INT10=0
+    '3PLP_S0': 1,  1INT=0
+    '13_S2d': 1, 10INT=0
+    '14_S2b': 1, 1INT=5INT=2INT=6INT=0
+    '4_M1a': 1, 
+    '7_M1d': 1, 
+    '6_M1c': 1, 3INT=0
+    '7_S0': 2, 1FIG 2INT=0 2FIG 2INT=0 
+    '9_S1f': 1, 
+    '10_S1c': 1, 4INT=0
+    '2PM_P1f': 1, 
+    '16_M1c': 1, 2INT=0
+    '3PLP_S2a': 1, 
+    '10_M1e': 1, 2INT=5INT=8INT=9INT=0
+    '2PM_P1a': 1, 
+    '4_P1c': 1, 
+    '3LPP_P1c': 1, 
+    '2MP_P1a': 2, ID
+    '10_S2b': 1, 
+    '3PPM_P1a': 1, 2INT=0 1INT=0
+    '5_S2c': 1, 
+    '3PPP_S0': 1, 
+    '11_S2d': 1, 7INT=0
+    '11_M1d': 1, 
+    '6_S1f': 2, ID-ASI
+    '8_M1a': 1, 
+    '3MMP_P1c': 1, 
+    '3MPM_S2f': 1, ASI-ID
+    '10_S2d': 1, 
+    '10_S2a': 1, 7INT=0
+    '9_M1d': 1, 1INT=0
+    '3LPP_S2f': 1, 
+    '10_M1a': 1 5INT=7INT=0
+}
