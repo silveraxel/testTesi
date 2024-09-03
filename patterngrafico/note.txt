@@ -255,3 +255,209 @@ day_emiss=df_dispositivo_emis['consumption'].to_numpy()
     if day_emiss<temp: patterns="0"
 
 ********
+PATTERN GRAFICI 
+
+Array con i pattern della settimana 2019-01-07 00:00:00 da LUN a DOM [0]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-01-14 00:00:00 da LUN a DOM [1]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-01-21 00:00:00 da LUN a DOM [2]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-01-28 00:00:00 da LUN a DOM [3]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-02-04 00:00:00 da LUN a DOM [4]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-02-11 00:00:00 da LUN a DOM [5]
+['0', '0', 'CAMALA1P_S0', '0', '0', 'CCMDLB3PMM_S2f', 'CHMHLH4_S0']
+[    0.     0.   177.     0.     0.  3064. 12306.]
+
+Array con i pattern della settimana 2019-02-18 00:00:00 da LUN a DOM [6]
+['CGMHLF3MPP_S0', 'CHMHLG2LM_S0', 'CHMHLH8_S2c', 'CFMHLE5_S1a', 'CHMHLH9_S2a', 'CGMHLE5_S0', 'CFMGLD3MPP_S2f']
+[ 8773. 11962. 23821.  7761. 15156.  8121.  6905.]
+
+Array con i pattern della settimana 2019-02-25 00:00:00 da LUN a DOM [7]
+['CHMHLG5_S1a', 'CHMHLH8_M1c', 'CGMHLE3LMP_S0', 'CHMHLH6_M1d', 'CEMHLE4_S2a', 'CDMHLD5_S1f', 'CFMHLF5_S2a']
+[11985. 16848.  8369. 14887.  7887.  6313.  9871.]
+
+Array con i pattern della settimana 2019-03-04 00:00:00 da LUN a DOM [8]
+['CFMHLF2MP_S0', 'CDMGLD3PPL_S0', 'CCMDLC3MMP_S2a', 'CCMDLC1M_S0', '0', '0', 'CDMFLC3PPL_P1c']
+[9307. 5967. 3804. 3830.    0.    0. 5226.]
+
+Array con i pattern della settimana 2019-03-11 00:00:00 da LUN a DOM [9]
+['CFMHLF7_S2f', 'CAMBLA2PP_P1a', 'CEMGLD3MPP_S2f', 'CDMFLC5_S1f', 'CEMHLE8_S2f', 'CFMHLF5_S2a', 'CDMGLD3PPM_S0']
+[9009. 1275. 6739. 5044. 6989. 9806. 5986.]
+
+Array con i pattern della settimana 2019-03-18 00:00:00 da LUN a DOM [10]
+['CAMALA1M_S0', 'CDMGLD4_S0', 'CDMGLD4_S0', 'CDMGLD3LPP_S0', 'CDMGLD13_M1d', 'CEMHLE3PLM_S0', 'CHMHLH8_S1a']
+[  623.  6089.  6573.  6324.  6323.  7707. 32496.]
+
+Array con i pattern della settimana 2019-03-25 00:00:00 da LUN a DOM [11]
+['CDMFLD2MP_S0', 'CHMHLH8_S2a', 'CCMDLC2MM_S0', 'CFMHLE8_S0', 'CCMDLC2MP_S0', 'CCMDLC2PP_S0', 'CCMDLC2LP_S0']
+[ 5332. 13145.  3753.  8652.  3755.  3644.  3592.]
+
+Array con i pattern della settimana 2019-04-01 00:00:00 da LUN a DOM [12]
+['CHMHLH3MPP_S0', 'CBMBLC2PL_P1a', 'CCMCLD1M_S0', 'CDMCLE3MMM_S0', 'CEMELF7_S2d', 'CDMCLD5_S1f', 'CFMELH2MM_S0']
+[26977.  4421.  5670.  7347. 10018.  6929. 12221.]
+
+Array con i pattern della settimana 2019-04-08 00:00:00 da LUN a DOM [13]
+['0', 'CBMBLB7_S1a', 'CCMBLC3MMM_S2f', 'CBMBLC2MP_S0', 'CEMELG6_S0', 'CFMELH5_S0', 'CAMALA2PP_S0']
+[    0.  3086.  4635.  3752. 11006. 12366.   985.]
+
+Array con i pattern della settimana 2019-04-15 00:00:00 da LUN a DOM [14]
+['CEMDLF5_S2a', 'CDMDLE7_S2c', 'CEMELF5_M1f', 'CHMHLH3PMP_S2f', 'CBMALB5_M1c', 'CDMDLE7_S2f', 'CAMALA2PP_S0']
+[ 9718.  8125. 10361. 33816.  2216.  7912.   894.]
+
+Array con i pattern della settimana 2019-04-22 00:00:00 da LUN a DOM [15]
+['CFMFLH6_S0', 'CHMHLH9_M1b', 'CAMALA1M_S0', 'CAMALA1M_S0', 'CDMDLE7_S2c', 'CHMGLH7_S2c', 'CCMCLD7_S2c']
+[12493. 32722.   753.   870.  7962. 16808.  6170.]
+
+Array con i pattern della settimana 2019-04-29 00:00:00 da LUN a DOM [16]
+['CCMCLD2MM_P1f', 'CAMALA2PP_S0', 'CHMHLH6_S1a', 'CCMDLC4_S0', 'CDMELD4_M1c', 'CFMHLF6_S2f', 'CCMDLC2PL_S0']
+[ 5314.   217. 41191.  4857.  6009.  9599.  4976.]
+
+Array con i pattern della settimana 2019-05-06 00:00:00 da LUN a DOM [17]
+['CDMCLE6_S2a', 'CDMCLD3MPM_S0', 'CEMDLE4_S2a', 'CCMCLD4_S2a', 'CCMCLD2MP_P1f', '0', '0']
+[7087. 5861. 8221. 5312. 5602.    0.    0.]
+
+Array con i pattern della settimana 2019-05-13 00:00:00 da LUN a DOM [18]
+['CAMALA3PPP_S2a', 'CDMCLE5_S1f', 'CEMDLF4_S2f', 'CDMCLD1L_S0', 'CDMCLD4_S2f', 'CHMHLH6_S2c', 'CCMCLD9_S2c']
+[  108.  6994.  9478.  6191.  6511. 21086.  5247.]
+
+Array con i pattern della settimana 2019-05-20 00:00:00 da LUN a DOM [19]
+['CBMBLB2PP_S0', 'CGMFLH5_S1a', 'CFMELG4_M1f', 'CGMELG4_S2f', 'CDMCLD5_S1f', 'CFMELG4_S2f', '0']
+[ 3445. 12989. 10694. 11870.  6417. 11053.     0.]
+
+Array con i pattern della settimana 2019-05-27 00:00:00 da LUN a DOM [20]
+['CAMALA4_S2a', 'CDMCLE1M_S0', 'CBMBLC2MP_S0', 'CHMFLH5_M1d', '0', 'CAMALA1P_S0', 'CDMHLG7_S1f']
+[  981.  7361.  3634. 14886.     0.   244. 11400.]
+
+Array con i pattern della settimana 2019-06-03 00:00:00 da LUN a DOM [21]
+['CDMFLH7_M1b', 'CDMFLH8_S1a', 'CBMCLD4_S2a', 'CCMDLF4_S2a', 'CCMDLF9_S2c', 'CBMCLD7_S1f', 'CBMCLD8_S1a']
+[12690. 13362.  6491.  9208.  8733.  5940.  6675.]
+
+Array con i pattern della settimana 2019-06-10 00:00:00 da LUN a DOM [22]
+['CFMHLH12_S2c', 'CBMBLB4_S2f', 'CEMFLH9_S2c', 'CEMGLH8_M1c', 'CHMHLH6_S2c', 'CHMHLH10_M1b', 'CBMCLD7_S1a']
+[ 18339.   3481.  13808.  15734.  30886. 107383.   5436.]
+
+Array con i pattern della settimana 2019-06-17 00:00:00 da LUN a DOM [23]
+['CCMDLF7_M1b', 'CCMDLE4_S0', 'CHMHLH11_M2d', 'CBMBLC3MMM_P1c', 'CEMFLH16_M1d', 'CEMFLH11_S2c', 'CBMCLD5_S1f']
+[ 8805.  8089. 32931.  3514. 13933. 14622.  6567.]
+
+Array con i pattern della settimana 2019-06-24 00:00:00 da LUN a DOM [24]
+['CCMDLF2LM_S0', 'CEMGLH11_S2d', 'CCMCLE11_M2c', 'CAMALA5_M1d', '0', 'CAMALA4_S0', 'CDMELG8_S2a']
+[ 9886. 16532.  7415.   825.     0.   588. 10838.]
+
+Array con i pattern della settimana 2019-07-01 00:00:00 da LUN a DOM [25]
+['CEMELF1L_S0', 'CAMBLB3MPP_S2a', 'CEMFLG9_S1c', 'CCMCLD2LM_S0', 'CAMALA2MP_S0', 'CHMHLH11_M1a', 'CDMELF7_S1a']
+[ 6201.  1372.  6883.  3762.   715. 11253.  5816.]
+
+Array con i pattern della settimana 2019-07-08 00:00:00 da LUN a DOM [26]
+['CFMGLH4_S2a', 'CDMDLE3PLP_S0', 'CGMHLH13_S2d', 'CCMDLD4_S2f', 'CHMHLH11_S2a', 'CEMELF2MP_P1f', 'CHMHLH9_S2a']
+[ 8548.  4691.  9481.  4337. 25061.  6349. 13882.]
+
+Array con i pattern della settimana 2019-07-15 00:00:00 da LUN a DOM [27]
+['CDMDLE4_S2a', 'CHMHLH10_S2c', 'CCMCLD4_S2f', 'CCMCLD8_S2c', 'CAMALA2PP_S0', '0', 'CCMDLD4_M1a']
+[ 4715. 11885.  3480.  3720.   236.     0.  4059.]
+
+Array con i pattern della settimana 2019-07-22 00:00:00 da LUN a DOM [28]
+['CDMELF7_M1d', 'CDMELF4_M1f', 'CDMDLE5_S2c', 'CAMALA5_S2a', 'CCMDLD4_M1c', 'CEMFLG6_S0', 'CEMELF9_S1f']
+[6058. 5518. 4656.  652. 4369. 7310. 6355.]
+
+Array con i pattern della settimana 2019-07-29 00:00:00 da LUN a DOM [29]
+['CDMDLE7_M1b', 'CFMGLH10_S1c', 'CDMELF2PM_P1f', '0', '0', '0', 'CHMDLE6_M1d']
+[5240. 8417. 5784.    0.    0.    0. 5304.]
+
+Array con i pattern della settimana 2019-08-05 00:00:00 da LUN a DOM [30]
+['CHMHLH16_M1c', 'CDMBLC5_S0', 'CDMBLC1M_S0', 'CCMBLB1P_S0', 'CGMDLE4_S2f', '0', '0']
+[16734.  2505.  2249.  1656.  4843.     0.     0.]
+
+Array con i pattern della settimana 2019-08-12 00:00:00 da LUN a DOM [31]
+['0', 'CDMBLC3PLP_S2a', '0', 'CFMDLD6_S2a', 'CFMDLD10_M1e', 'CCMBLB2PM_P1a', 'CEMCLC4_P1c']
+[0.000e+00 2.389e+03 2.000e+00 4.054e+03 4.079e+03 2.001e+03 2.950e+03]
+
+Array con i pattern della settimana 2019-08-19 00:00:00 da LUN a DOM [32]
+['CHMFLH3LPP_P1c', '0', '0', 'CDMBLB1M_S0', '0', '0', 'CHMHLH2MP_S0']
+[ 7733.     0.     0.  2171.     0.     0. 14104.]
+
+Array con i pattern della settimana 2019-08-26 00:00:00 da LUN a DOM [33]
+['0', '0', '0', 'CAMALA2MP_P1a', 'CEMCLD4_S2a', 'CHMHLH6_S2a', 'CAMALA4_S2a']
+[    0.     0.     0.   333.  3346. 11636.   475.]
+
+Array con i pattern della settimana 2019-09-02 00:00:00 da LUN a DOM [34]
+['CDMELF3MPM_S0', 'CBMCLD5_S0', 'CEMGLH10_S2b', 'CDMELF5_S1a', 'CBMCLC4_S2f', 'CCMCLD3PPM_P1a', 'CAMALA2PP_S0']
+[6042. 3552. 8570. 6498. 3126. 3604.   79.]
+
+Array con i pattern della settimana 2019-09-09 00:00:00 da LUN a DOM [35]
+['CCMDLE2MM_S0', 'CGMHLH4_S2f', 'CBMCLC2PP_P1a', '0', 'CCMDLE5_S2c', 'CGMHLH7_S2c', 'CAMBLB3PPP_S0']
+[ 4620. 11955.  3295.     0.  4812. 11044.  1524.]
+
+Array con i pattern della settimana 2019-09-16 00:00:00 da LUN a DOM [36]
+['CCMCLD2MP_P1a', 'CGMHLH10_M1d', 'CEMGLH11_M1d', 'CEMGLH6_M1a', 'CDMELF2MM_S0', 'CGMHLH8_S2a', 'CCMDLE3PMP_S2f']
+[ 3781. 11662.  8319.  8148.  5666. 11425.  4978.]
+
+Array con i pattern della settimana 2019-09-23 00:00:00 da LUN a DOM [37]
+['CHMHLH7_S1f', 'CHMHLH8_S2f', 'CFMHLH4_S2f', 'CCMDLE6_S1a', 'CHMHLH5_S0', 'CGMHLH9_S1c', 'CGMHLH8_M1a']
+[19634. 13843.  9462.  5036. 12597. 10907. 12094.]
+
+Array con i pattern della settimana 2019-09-30 00:00:00 da LUN a DOM [38]
+['CEMFLH8_S2c', 'CEMELH4_S0', 'CAMALA3MMP_P1c', 'CBMBLD2MM_S0', 'CGMHLH6_M1c', 'CDMDLH8_S1a', 'CHMHLH4_S2a']
+[ 7790. 10492.    56.  3480. 15760.  8467. 21209.]
+
+Array con i pattern della settimana 2019-10-07 00:00:00 da LUN a DOM [39]
+['CBMFLE5_S0', 'CHMHLH6_S1f', 'CEMHLH3MPM_S2f', 'CHMHLH7_S1f', 'CBMFLE3MPP_S2f', 'CHMHLH10_S2d', 'CHMHLH9_S1a']
+[ 4898. 20393. 10821. 19991.  4706. 22002. 18072.]
+
+Array con i pattern della settimana 2019-10-14 00:00:00 da LUN a DOM [40]
+['CHMHLH5_S1a', 'CCMHLG5_S1f', 'CCMGLE3MPP_S0', 'CCMHLG4_S0', 'CCMHLG5_M1d', 'CHMHLH8_M1d', 'CAMCLC2PP_S0']
+[22285.  7162.  5369.  7591.  7576. 23965.  2283.]
+
+Array con i pattern della settimana 2019-10-21 00:00:00 da LUN a DOM [41]
+['CBMDLC2PP_S0', 'CEMHLH6_S0', 'CBMFLE3LPP_S2f', 'CCMHLG3LMP_S0', 'CDMHLH4_S0', 'CEMHLH6_S0', 'CGMHLH6_S1a']
+[ 3228. 12506.  4893.  6660.  9335. 12324. 16304.]
+
+Array con i pattern della settimana 2019-10-28 00:00:00 da LUN a DOM [42]
+['CFMHLH10_M1a', '0', '0', '0', '0', '0', '0']
+[14922.     0.     0.     0.     0.     0.     0.]
+
+Array con i pattern della settimana 2019-11-04 00:00:00 da LUN a DOM [43]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-11-11 00:00:00 da LUN a DOM [44]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-11-18 00:00:00 da LUN a DOM [45]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-11-25 00:00:00 da LUN a DOM [46]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-12-02 00:00:00 da LUN a DOM [47]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-12-09 00:00:00 da LUN a DOM [48]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-12-16 00:00:00 da LUN a DOM [49]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+Array con i pattern della settimana 2019-12-23 00:00:00 da LUN a DOM [50]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
