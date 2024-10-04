@@ -1,0 +1,58 @@
+Sequenza: 1
+     1     1     1   144   162   159    79
+States: 1
+     1     1     1     2     2     2     2
+
+
+Sequenza: 2
+     1     1     1     1     1     1     1
+States: 2
+     1     1     1     1     1     1     1
+
+
+Sequenza: 3
+     1     1     1     1     1     1     1
+States: 3
+     1     1     1     1     1     1     1
+
+
+Sequenza: 4
+   149   192   208   113    30    31    53
+States: 4
+     2     2     2     2     2     2     2
+
+
+Sequenza: 5
+     1     1     1     1   179   122   114
+States: 5
+     1     1     1     1     2     2     2
+
+
+Sequenza: 6
+    12   110   167   202    29   118    95
+States: 6
+     2     2     2     2     2     2     2
+
+
+Sequenza: 7
+     1     1     1     1     1     1     1
+States: 7
+     1     1     1     1     1     1     1
+
+
+Sequenza: 8
+     1    23   209     2   166   176   187
+States: 8
+     1     2     2     2     2     2     2
+
+
+Sequenza: 9
+     1     1     1     1     1   114    30
+States: 9
+     1     1     1     1     1     2     2
+
+
+Sequenza: 10
+     1     1     1     1     1     1     1
+States: 10
+     1     1     1     1     1     1     1
