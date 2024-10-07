@@ -1,5 +1,4 @@
-% Sequenza con solo i giorni in cui abbiamo delle misurazioni
-%gruppi da 4 settimane 
+% 4 SETTIMANE, NON SONO MESI SPECIFICI
 
 % Sequenza osservata e stati
 seq1=[62, 63, 30, 30, 57, 64, 65,66, 55, 67, 68, 69, 70, 71,72, 73, 74, 75, 76, 1, 1,77, 78, 79, 80, 81, 82, 83];
