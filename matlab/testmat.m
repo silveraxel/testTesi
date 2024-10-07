@@ -27,7 +27,7 @@ for i = 1:10
     disp(seq1);
 
     % Visualizzazione della matrice di emissione
-    disp(['States: ', num2str(i)]);
-    disp(states1);
+    %disp(['States: ', num2str(i)]);
+    %disp(states1);
 end
 

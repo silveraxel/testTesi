@@ -1,58 +1,394 @@
+stato 1==0 emissioni
+emissione seq=1 ==> emissione==0
+Matrice di Transizione degli Stati(X TUTTO L'ANNO):
+    0.8710    0.1290
+    0.0690    0.9310
+
+Matrice di Emissione:
+     1.0000         0         0         0         0         0 
+          0    0.0086    0.0043    0.0043    0.0043    0.0043    
+
+OSS: la probabilita di avere una certa emissione, nello stato 2, sara uguale a 0.0043*(#emissioni in tutto l'anno)
+
+pattern(SETTIMANE GENERATE):
+
 Sequenza: 1
-     1     1     1   144   162   159    79
-States: 1
-     1     1     1     2     2     2     2
-
-
+     1     1     1     1     1     1     1
 Sequenza: 2
      1     1     1     1     1     1     1
-States: 2
-     1     1     1     1     1     1     1
-
-
 Sequenza: 3
-     1     1     1     1     1     1     1
-States: 3
-     1     1     1     1     1     1     1
-
-
+     1     1   169     1     1     1     1
+['0', 'CCMCLD3PPM_P1a', '0', '0', '0', '0', '0']
 Sequenza: 4
-   149   192   208   113    30    31    53
-States: 4
-     2     2     2     2     2     2     2
-
-
+     1     1     1     1     1     1     1
 Sequenza: 5
-     1     1     1     1   179   122   114
-States: 5
-     1     1     1     1     2     2     2
-
-
+     1     1     1     1     1     1     1
 Sequenza: 6
-    12   110   167   202    29   118    95
-States: 6
-     2     2     2     2     2     2     2
-
-
+     1     1     1     1     1     1     1
 Sequenza: 7
-     1     1     1     1     1     1     1
-States: 7
-     1     1     1     1     1     1     1
-
-
+     1     1   154   108   215    46    23
+['0', '0', 'CFMDLD6_S2a', 'CHMHLH11_M2d', 'CGMHLH6_S1a', 'CDMCLE3MMM_S0', 'CDMFLC3PPL_P1c']
 Sequenza: 8
-     1    23   209     2   166   176   187
-States: 8
-     1     2     2     2     2     2     2
-
-
+     1     1     1     1     1     1     1
 Sequenza: 9
-     1     1     1     1     1   114    30
-States: 9
-     1     1     1     1     1     2     2
-
-
+     1     1     1     1     1     1     1
 Sequenza: 10
      1     1     1     1     1     1     1
-States: 10
+
+Sequenza: 1
+     1     1    46   170   206    64   142
+['0', '0', 'CDMCLE3MMM_S0', 'CCMDLE2MM_S0', 'CCMHLG4_S0', 'CHMGLH7_S2c', 'CEMFLG6_S0']
+Sequenza: 2
+     1     1     1     1     1   160   178
+['0', '0', '0', '0', '0', 'CHMHLH2MP_S0', 'CEMGLH11_M1d']
+Sequenza: 3
      1     1     1     1     1     1     1
+Sequenza: 4
+   186   129   214   109    98   172     1
+['CCMDLE6_S1a', 'CCMDLD4_S2f', 'CDMHLH4_S0', 'CBMBLC3MMM_P1c', 'CBMCLD7_S1f', 'CBMCLC2PP_P1a', '0']
+Sequenza: 5
+     1    18   132   140   156   192   212
+['0', 'CFMHLF5_S2a', 'CDMDLE4_S2a', 'CAMALA5_S2a', 'CCMBLB2PM_P1a', 'CAMALA3MMP_P1c', 'CBMFLE3LPP_S2f']
+Sequenza: 6
+     1     1    44   115     1     1     1
+['0', '0', 'CBMBLC2PL_P1a', 'CCMCLE11_M2c', '0', '0', '0']
+Sequenza: 7
+     1     1     1     1     1     1     1
+Sequenza: 8
+     1     1     1     1     1   205    18
+['0', '0', '0', '0', '0', 'CCMGLE3MPP_S0', 'CFMHLF5_S2a']
+Sequenza: 9
+     1     1     1     1     1     1   185
+['0', '0', '0', '0', '0', '0', 'CFMHLH4_S2f']
+Sequenza: 10
+     1     1     1     1     1     1   182
+['0', '0', '0', '0', '0', '0', 'CCMDLE3PMP_S2f']
+
+OSS:  TRANSIZIONE DALLO STATO i ALLO STATO i E' MOLTO ALTA IN QUESTO CASO, PROVANDO A GENERARE ALTRE SETTIMANE OTTENIAMO
+SEMPRE SETTIMANE SENZA EMISSIONI O CON LA MAGGIOR PARTE DEI GIORNI SENZA EMISSIONI. 
+NON RAPPRESENTA MOLTO QUELLA CHE E' LA REALTA' CHE ABBIAMO IN UN 'ANNO' DI MISURAZIONI 
+
+
+Matrice di Transizione degli Stati(X 43 SETTIMANE, PARTE DALL'INIZIO DELL'ANNO):
+    0.7647    0.2353
+    0.0690    0.9310
+
+Matrice di Emissione:
+    1.0000         0         0         0         0         0         0         0         0      
+         0    0.0086    0.0043    0.0043    0.0043    0.0043    0.0043    0.0043    0.0086    
+
+Sequenza: 1
+     1   194    26   214     1     1     1
+['0', 'CGMHLH6_M1c', 'CEMGLD3MPP_S2f', 'CDMHLH4_S0', '0', '0', '0']
+Sequenza: 2
+     1     1     1     1    36    44   195
+['0', '0', '0', '0', 'CDMFLD2MP_S0', 'CBMBLC2PL_P1a', 'CDMDLH8_S1a']
+Sequenza: 3
+     1     1    58    30    45   193    16
+['0', '0', 'CEMELF5_M1f', 'CAMALA1M_S0', 'CCMCLD1M_S0', 'CBMBLD2MM_S0', 'CEMHLE4_S2a']
+Sequenza: 4
+     1     1     1     1    66    57    14
+['0', '0', '0', '0', 'CCMCLD2MM_P1f', 'CDMDLE7_S2c', 'CGMHLE3LMP_S0']
+Sequenza: 5
+     1     1     1     1     1     1     1
+Sequenza: 6
+     1     1     1     1     1     1     1
+Sequenza: 7
+    99   192   172   157    11    16    19
+['CBMCLD8_S1a', 'CAMALA3MMP_P1c', 'CBMCLC2PP_P1a', 'CEMCLC4_P1c', 'CFMGLD3MPP_S2f', 'CEMHLE4_S2a', 'CFMHLF2MP_S0']
+Sequenza: 8
+   135    65   138   160   122   158    49
+['CCMCLD8_S2c', 'CCMCLD7_S2c', 'CDMELF4_M1f', 'CHMHLH2MP_S0', 'CCMCLD2LM_S0', 'CHMFLH3LPP_P1c', 'CFMELH2MM_S0']
+Sequenza: 9
+     1   170    74    43    19   166    43
+['0', 'CCMDLE2MM_S0', 'CEMDLE4_S2a', 'CHMHLH3MPP_S0', 'CFMHLF2MP_S0', 'CEMGLH10_S2b', 'CHMHLH3MPP_S0']
+Sequenza: 10
+     1     1     1     1     1     1    23
+['0', '0', '0', '0', '0', '0', 'CDMFLC3PPL_P1c']
+Sequenza: 1
+     1    88   139    24   202    39    55
+['0', 'CFMELG4_S2f', 'CDMDLE5_S2c', 'CFMHLF7_S2f', 'CHMHLH9_S1a', 'CFMHLE8_S0', 'CAMALA2PP_S0']
+Sequenza: 2
+    87    91   128    13    62     1     1
+['CGMELG4_S2f', 'CHMFLH5_M1d', 'CGMHLH13_S2d', 'CHMHLH8_M1c', 'CFMFLH6_S0', '0', '0']
+Sequenza: 3
+     1     1     1     1     1     1     1
+Sequenza: 4
+     1     1     1     1     1     1   150
+['0', '0', '0', '0', '0', '0', 'CDMBLC1M_S0']
+Sequenza: 5
+     1     1     1     1   213    82   130
+['0', '0', '0', '0', 'CCMHLG3LMP_S0', 'CHMHLH6_S2c', 'CHMHLH11_S2a']
+Sequenza: 6
+     1     1     1     1    66    58    92
+['0', '0', '0', '0', 'CCMCLD2MM_P1f', 'CEMELF5_M1f', 'CDMHLG7_S1f']
+Sequenza: 7
+     1     1     1     1     1     1     1
+Sequenza: 8
+     1     1     1     1     1     1     1
+Sequenza: 9
+     9   174   160    26   108    64   113
+['CHMHLH9_S2a', 'CGMHLH7_S2c', 'CHMHLH2MP_S0', 'CEMGLD3MPP_S2f', 'CHMHLH11_M2d', 'CHMGLH7_S2c', 'CCMDLF2LM_S0']
+Sequenza: 10
+     1     1     1     1     1    89    53
+['0', '0', '0', '0', '0', 'CAMALA4_S2a', 'CEMELG6_S0']
+
+OSS:IN QUESTO CASO ABBIAMO SETTIMANE UN PO PIU' REALISTICHE POICHE ABBIAMO EMISSIONI ACCOPPIATE CHE ABBIANO ANCHE NELLA REALTA.
+ABBIAMO UN BILANCIO PIU REALISTICO DELLE GIORNATE CON ZERO EMISSIONI
+
+Matrice di Transizione degli Stati(SOLO PARTE MISURATA):
+    0.5152    0.4848
+    0.0690    0.9310
+
+
+Matrice di Emissione:
+  Columns 1 through 18
+
+    1.0000         0         0         0         0         0         0   
+         0    0.0086    0.0043    0.0043    0.0043    0.0043    0.0043 
+
+pattern:
+
+Sequenza: 1
+   109    93   189   107   204   134   208
+['CBMBLC3MMM_P1c', 'CDMFLH7_M1b', 'CGMHLH8_M1a', 'CCMDLE4_S0', 'CCMHLG5_S1f', 'CCMCLD4_S2f', 'CHMHLH8_M1d']
+Sequenza: 2
+     1   141   182    68   168     1     1
+['0', 'CCMDLD4_M1c', 'CCMDLE3PMP_S2f', 'CCMDLC4_S0', 'CBMCLC4_S2f', '0', '0']
+Sequenza: 3
+   165    63   169     1     1     1     1
+['CBMCLD5_S0', 'CHMHLH9_M1b', 'CCMCLD3PPM_P1a', '0', '0', '0', '0']
+Sequenza: 4
+     1     1     1    39    56    20   120
+['0', '0', '0', 'CFMHLE8_S0', 'CEMDLF5_S2a', 'CDMGLD3PPL_S0', 'CAMBLB3MPP_S2a']
+Sequenza: 5
+   205    44   151    49    26   127    91
+['CCMGLE3MPP_S0', 'CBMBLC2PL_P1a', 'CCMBLB1P_S0', 'CFMELH2MM_S0', 'CEMGLD3MPP_S2f', 'CDMDLE3PLP_S0', 'CHMFLH5_M1d']
+Sequenza: 6
+     1    53   129   122   112   187    55
+['0', 'CEMELG6_S0', 'CCMDLD4_S2f', 'CCMCLD2LM_S0', 'CBMCLD5_S1f', 'CHMHLH5_S0', 'CAMALA2PP_S0']
+Sequenza: 7
+     1     1   154   108   215    46    23
+['0', '0', 'CFMDLD6_S2a', 'CHMHLH11_M2d', 'CGMHLH6_S1a', 'CDMCLE3MMM_S0', 'CDMFLC3PPL_P1c']
+Sequenza: 8
+     1     1     1     1     1   148    20
+['0', '0', '0', '0', '0', 'CHMHLH16_M1c', 'CDMGLD3PPL_S0']
+Sequenza: 9
+   107    69    31   122    54    10   162
+['CCMDLE4_S0', 'CDMELD4_M1c', 'CDMGLD4_S0', 'CCMCLD2LM_S0', 'CFMELH5_S0', 'CGMHLE5_S0', 'CEMCLD4_S2a']
+Sequenza: 10
+     1     1     5    65    86    55    41
+['0', '0', 'CGMHLF3MPP_S0', 'CCMCLD7_S2c', 'CFMELG4_M1f', 'CAMALA2PP_S0', 'CCMDLC2PP_S0']
+
+
+Sequenza: 1
+    65   194    26   214     1     1   216
+['CCMCLD7_S2c', 'CGMHLH6_M1c', 'CEMGLD3MPP_S2f', 'CDMHLH4_S0', '0', '0', 'CFMHLH10_M1a']
+Sequenza: 2
+     1     1     1    66    36    44   195
+['0', '0', '0', 'CCMCLD2MM_P1f', 'CDMFLD2MP_S0', 'CBMBLC2PL_P1a', 'CDMDLH8_S1a']
+Sequenza: 3
+    38   125    58    30    45   193    16
+['CCMDLC2MM_S0', 'CDMELF7_S1a', 'CEMELF5_M1f', 'CAMALA1M_S0', 'CCMCLD1M_S0', 'CBMBLD2MM_S0', 'CEMHLE4_S2a']
+Sequenza: 4
+     1     1     1     1    66    57    14
+['0', '0', '0', '0', 'CCMCLD2MM_P1f', 'CDMDLE7_S2c', 'CGMHLE3LMP_S0']
+Sequenza: 5
+     1     1     1    24   178    67    57
+['0', '0', '0', 'CFMHLF7_S2f', 'CEMGLH11_M1d', 'CHMHLH6_S1a', 'CDMDLE7_S2c']
+Sequenza: 6
+   151     1     1   147   116    80    14
+['CCMBLB1P_S0', '0', '0', 'CHMDLE6_M1d', 'CAMALA5_M1d', 'CDMCLD1L_S0', 'CGMHLE3LMP_S0']
+Sequenza: 7
+    99   192   172   157    11    16    19
+['CBMCLD8_S1a', 'CAMALA3MMP_P1c', 'CBMCLC2PP_P1a', 'CEMCLC4_P1c', 'CFMGLD3MPP_S2f', 'CEMHLE4_S2a', 'CFMHLF2MP_S0']
+Sequenza: 8
+   135    65   138   160   122   158    49
+['CCMCLD8_S2c', 'CCMCLD7_S2c', 'CDMELF4_M1f', 'CHMHLH2MP_S0', 'CCMCLD2LM_S0', 'CHMFLH3LPP_P1c', 'CFMELH2MM_S0']
+Sequenza: 9
+   125   170    74    43    19   166    43
+['CDMELF7_S1a', 'CCMDLE2MM_S0', 'CEMDLE4_S2a', 'CHMHLH3MPP_S0', 'CFMHLF2MP_S0', 'CEMGLH10_S2b', 'CHMHLH3MPP_S0']
+Sequenza: 10
+     1    57    50   110    20    82    23
+['0', 'CDMDLE7_S2c', 'CBMBLB7_S1a', 'CEMFLH16_M1d', 'CDMGLD3PPL_S0', 'CHMHLH6_S2c', 'CDMFLC3PPL_P1c']
+
+OSS: PARLANDO DI GENERAZIONE DI SETTIMANE ,CON SEQUENZE DI EMISSIONI LUNGHE, E' IL MIGLIORE.
+     ABBIAMO UN EQUILIBRO MAGGIORE DEL TIPO DI EMISSIONI(i.e. numero delle emissioni vicino per es:"  57    50 " )
+
+Matrice di Transizione degli Stati(PRIMO PERIODO):
+    0.5000    0.5000
+    0.0400    0.9600
+Matrice di Emissione:
+
+     0         0         0         0         0         0         0 
+     0.0385    0.0385    0.0385    0.0385    0.0385    0.0385    0.0385   
+
+Sequenza: 1
+    72    82    83    62    83    82    70
+['CDMCLE6_S2a', 'CHMHLH6_S2c', 'CCMCLD9_S2c', 'CFMFLH6_S0', 'CCMCLD9_S2c', 'CHMHLH6_S2c', 'CFMHLF6_S2f']
+Sequenza: 2
+    30    80    82    75    77    77    68
+['CAMALA1M_S0', 'CDMCLD1L_S0', 'CHMHLH6_S2c', 'CCMCLD4_S2a', 'CAMALA3PPP_S2a', 'CAMALA3PPP_S2a', 'CCMDLC4_S0']
+Sequenza: 3
+    79    76    66     1     1     1     1
+['CEMDLF4_S2f', 'CCMCLD2MP_P1f', 'CCMCLD2MM_P1f', '0', '0', '0', '0']
+Sequenza: 4
+    77    65    75    75    62    57    70
+['CAMALA3PPP_S2a', 'CCMCLD7_S2c', 'CCMCLD4_S2a', 'CCMCLD4_S2a', 'CFMFLH6_S0', 'CDMDLE7_S2c', 'CFMHLF6_S2f']
+Sequenza: 5
+    76    81    82    72    57    57    64
+['CCMCLD2MP_P1f', 'CDMCLD4_S2f', 'CHMHLH6_S2c', 'CDMCLE6_S2a', 'CDMDLE7_S2c', 'CDMDLE7_S2c', 'CHMGLH7_S2c']
+Sequenza: 6
+    64    74    70    67    79    73    72
+['CHMGLH7_S2c', 'CEMDLE4_S2a', 'CFMHLF6_S2f', 'CHMHLH6_S1a', 'CEMDLF4_S2f', 'CDMCLD3MPM_S0', 'CDMCLE6_S2a']
+Sequenza: 7
+    30    71    78    82    57    72    70
+['CAMALA1M_S0', 'CCMDLC2PL_S0', 'CDMCLE5_S1f', 'CHMHLH6_S2c', 'CDMDLE7_S2c', 'CDMCLE6_S2a', 'CFMHLF6_S2f']
+Sequenza: 8
+     1     1     1    75    77    69    55
+['0', '0', '0', 'CCMCLD4_S2a', 'CAMALA3PPP_S2a', 'CDMELD4_M1c', 'CAMALA2PP_S0']
+Sequenza: 9
+     1    55    83    30    78    79    80
+['0', 'CAMALA2PP_S0', 'CCMCLD9_S2c', 'CAMALA1M_S0', 'CDMCLE5_S1f', 'CEMDLF4_S2f', 'CDMCLD1L_S0']
+Sequenza: 10
+     1     1     1    80    73    72    57
+['0', '0', '0', 'CDMCLD1L_S0', 'CDMCLD3MPM_S0', 'CDMCLE6_S2a', 'CDMDLE7_S2c']
+
+Matrice di Transizione degli Stati(SECONDO PERIODO):
+    0.5455    0.4545
+    0.3125    0.6875
+
+Matrice di Emissione:
+     0         0         0         0         0         0
+     0.0588    0.0588    0.0588    0.0588    0.0588    0.0588
+
+Sequenza: 1
+   146   147   148   151   144     1     1
+['CDMELF2PM_P1f', 'CHMDLE6_M1d', 'CHMHLH16_M1c', 'CCMBLB1P_S0', 'CDMDLE7_M1b', '0', '0']
+Sequenza: 2
+     1     1     1   145   146     1   160
+['0', '0', '0', 'CFMGLH10_S1c', 'CDMELF2PM_P1f', '0', 'CHMHLH2MP_S0']
+Sequenza: 3
+   146     1     1     1   151     1     1
+['CDMELF2PM_P1f', '0', '0', '0', 'CCMBLB1P_S0', '0', '0']
+Sequenza: 4
+   145     1   157     1     1   151   149
+['CFMGLH10_S1c', '0', 'CEMCLC4_P1c', '0', '0', 'CCMBLB1P_S0', 'CDMBLC5_S0']
+Sequenza: 5
+     1     1   159   158   153   154   153
+['0', '0', 'CDMBLB1M_S0', 'CHMFLH3LPP_P1c', 'CDMBLC3PLP_S2a', 'CFMDLD6_S2a', 'CDMBLC3PLP_S2a']
+Sequenza: 6
+     1     1     1     1   159     1     1
+['0', '0', '0', '0', 'CDMBLB1M_S0', '0', '0']
+Sequenza: 7
+   148   154   156     1     1     1   149
+['CHMHLH16_M1c', 'CFMDLD6_S2a', 'CCMBLB2PM_P1a', '0', '0', '0', 'CDMBLC5_S0']
+Sequenza: 8
+     1     1     1     1   151     1   153
+['0', '0', '0', '0', 'CCMBLB1P_S0', '0', 'CDMBLC3PLP_S2a']
+Sequenza: 9
+     1     1     1   159   157   145   148
+['0', '0', '0', 'CDMBLB1M_S0', 'CEMCLC4_P1c', 'CFMGLH10_S1c', 'CHMHLH16_M1c']
+Sequenza: 10
+     1   156     1   159     1   155   147
+['0', 'CCMBLB2PM_P1a', '0', 'CDMBLB1M_S0', '0', 'CFMDLD10_M1e', 'CHMDLE6_M1d']
+
+
+OSS: PER LA GENERAZIONE DELLE SETTIMANE PRENDENDO SOLO UNA PARTE DELL'ANNO(4 SETTIMANE)
+     AVREMO QUELLE CHE SONO LE SETTIMANE PIU' PLAUSIBILI E SIMILI ALLA REALTA'.
+     IN QUESTO CASO SONO 4 SETTIMANE RANDOMICHE E NON UN MESE SPECIFICO.
+     SI POTREBBERO PRENDERE IN ESAME I TRIMESTRI MA AVREMO IL PROBLEMA DI AVERE SETTIMANE
+     SENZA EMISSIONI.
+
+DIVISIONE DELLE EMISSIONI IN SETTIMANE(SOLO PERIODO MISURATO)
+[[1, 1, 2, 1, 1, 3, 4],
+ [5, 6, 7, 8, 9, 10, 11],
+ [12, 13, 14, 15, 16, 17, 18],
+ [19, 20, 21, 22, 1, 1, 23],
+ [24, 25, 26, 27, 28, 18, 29],
+ [30, 31, 31, 32, 33, 34, 35],
+ [36, 37, 38, 39, 40, 41, 42],
+ [43, 44, 45, 46, 47, 48, 49],
+ [1, 50, 51, 52, 53, 54, 55],
+ [56, 57, 58, 59, 60, 61, 55],
+
+ [62, 63, 30, 30, 57, 64, 65],(PRIMO PERIODO)
+ [66, 55, 67, 68, 69, 70, 71],(PRIMO PERIODO)
+ [72, 73, 74, 75, 76, 1, 1],(PRIMO PERIODO)
+ [77, 78, 79, 80, 81, 82, 83],(PRIMO PERIODO)
+
+ [84, 85, 86, 87, 48, 88, 1],
+ [89, 90, 52, 91, 1, 2, 92],
+ [93, 94, 95, 96, 97, 98, 99],
+ [100, 101, 102, 103, 82, 104, 105],
+ [106, 107, 108, 109, 110, 111, 112],
+ [113, 114, 115, 116, 1, 117, 118],
+ [119, 120, 121, 122, 123, 124, 125],
+ [126, 127, 128, 129, 130, 131, 9],
+ [132, 133, 134, 135, 55, 1, 136],
+ [137, 138, 139, 140, 141, 142, 143],
+
+ [144, 145, 146, 1, 1, 1, 147],(SECONDO PERIODO)
+ [148, 149, 150, 151, 152, 1, 1],(SECONDO PERIODO)
+ [1, 153, 1, 154, 155, 156, 157],(SECONDO PERIODO)
+ [158, 1, 1, 159, 1, 1, 160],(SECONDO PERIODO)
+ 
+ [1, 1, 1, 161, 162, 163, 89],
+ [164, 165, 166, 167, 168, 169, 55],
+ [170, 171, 172, 1, 173, 174, 175],
+ [176, 177, 178, 179, 180, 181, 182],
+ [183, 184, 185, 186, 187, 188, 189],
+ [190, 191, 192, 193, 194, 195, 196],
+ [197, 198, 199, 183, 200, 201, 202],
+ [203, 204, 205, 206, 207, 208, 209],
+ [210, 211, 212, 213, 214, 211, 215],
+ [216, 1, 1, 1, 1, 1, 1]
+ ]
+
+DIVISIONE DEGLI STATI IN SETTIMANE(SOLO PERIODO MISURATO)
+ [[1, 1, 2, 1, 1, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 1, 1, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [1, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+
+ [2, 2, 2, 2, 2, 2, 2], (PRIMO PERIODO)
+ [2, 2, 2, 2, 2, 2, 2], (PRIMO PERIODO)
+ [2, 2, 2, 2, 2, 1, 1], (PRIMO PERIODO)
+ [2, 2, 2, 2, 2, 2, 2], (PRIMO PERIODO)
+
+ [2, 2, 2, 2, 2, 2, 1], 
+ [2, 2, 2, 2, 1, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 1, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 1, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+
+ [2, 2, 2, 1, 1, 1, 2], (SECONDO PERIODO)
+ [2, 2, 2, 2, 2, 1, 1], (SECONDO PERIODO)
+ [1, 2, 1, 2, 2, 2, 2], (SECONDO PERIODO)
+ [2, 1, 1, 2, 1, 1, 2], (SECONDO PERIODO)
+ 
+ [1, 1, 1, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 1, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 2, 2, 2, 2, 2, 2], 
+ [2, 1, 1, 1, 1, 1, 1]
+ ]
+
+diz_pattern={1: '0', 2: 'CAMALA1P_S0', 3: 'CCMDLB3PMM_S2f', 4: 'CHMHLH4_S0', 5: 'CGMHLF3MPP_S0', 6: 'CHMHLG2LM_S0', 7: 'CHMHLH8_S2c', 8: 'CFMHLE5_S1a', 9: 'CHMHLH9_S2a', 10: 'CGMHLE5_S0', 11: 'CFMGLD3MPP_S2f', 12: 'CHMHLG5_S1a', 13: 'CHMHLH8_M1c', 14: 'CGMHLE3LMP_S0', 15: 'CHMHLH6_M1d', 16: 'CEMHLE4_S2a', 17: 'CDMHLD5_S1f', 18: 'CFMHLF5_S2a', 19: 'CFMHLF2MP_S0', 20: 'CDMGLD3PPL_S0', 21: 'CCMDLC3MMP_S2a', 22: 'CCMDLC1M_S0', 23: 'CDMFLC3PPL_P1c', 24: 'CFMHLF7_S2f', 25: 'CAMBLA2PP_P1a', 26: 'CEMGLD3MPP_S2f', 27: 'CDMFLC5_S1f', 28: 'CEMHLE8_S2f', 29: 'CDMGLD3PPM_S0', 30: 'CAMALA1M_S0', 31: 'CDMGLD4_S0', 32: 'CDMGLD3LPP_S0', 33: 'CDMGLD13_M1d', 34: 'CEMHLE3PLM_S0', 35: 'CHMHLH8_S1a', 36: 'CDMFLD2MP_S0', 37: 'CHMHLH8_S2a', 38: 'CCMDLC2MM_S0', 39: 'CFMHLE8_S0', 40: 'CCMDLC2MP_S0', 41: 'CCMDLC2PP_S0', 42: 'CCMDLC2LP_S0', 43: 'CHMHLH3MPP_S0', 44: 'CBMBLC2PL_P1a', 45: 'CCMCLD1M_S0', 46: 'CDMCLE3MMM_S0', 47: 'CEMELF7_S2d', 48: 'CDMCLD5_S1f', 49: 'CFMELH2MM_S0', 50: 'CBMBLB7_S1a', 51: 'CCMBLC3MMM_S2f', 52: 'CBMBLC2MP_S0', 53: 'CEMELG6_S0', 54: 'CFMELH5_S0', 55: 'CAMALA2PP_S0', 56: 'CEMDLF5_S2a', 57: 'CDMDLE7_S2c', 58: 'CEMELF5_M1f', 59: 'CHMHLH3PMP_S2f', 60: 'CBMALB5_M1c', 61: 'CDMDLE7_S2f', 62: 'CFMFLH6_S0', 63: 'CHMHLH9_M1b', 64: 'CHMGLH7_S2c', 65: 'CCMCLD7_S2c', 66: 'CCMCLD2MM_P1f', 67: 'CHMHLH6_S1a', 68: 'CCMDLC4_S0', 69: 'CDMELD4_M1c', 70: 'CFMHLF6_S2f', 71: 'CCMDLC2PL_S0', 72: 'CDMCLE6_S2a', 73: 'CDMCLD3MPM_S0', 74: 'CEMDLE4_S2a', 75: 'CCMCLD4_S2a', 76: 'CCMCLD2MP_P1f', 77: 'CAMALA3PPP_S2a', 78: 'CDMCLE5_S1f', 79: 'CEMDLF4_S2f', 80: 'CDMCLD1L_S0', 81: 'CDMCLD4_S2f', 82: 'CHMHLH6_S2c', 83: 'CCMCLD9_S2c', 84: 'CBMBLB2PP_S0', 85: 'CGMFLH5_S1a', 86: 'CFMELG4_M1f', 87: 'CGMELG4_S2f', 88: 'CFMELG4_S2f', 89: 'CAMALA4_S2a', 90: 'CDMCLE1M_S0', 91: 'CHMFLH5_M1d', 92: 'CDMHLG7_S1f', 93: 'CDMFLH7_M1b', 94: 'CDMFLH8_S1a', 95: 'CBMCLD4_S2a', 96: 'CCMDLF4_S2a', 97: 'CCMDLF9_S2c', 98: 'CBMCLD7_S1f', 99: 'CBMCLD8_S1a', 100: 'CFMHLH12_S2c', 101: 'CBMBLB4_S2f', 102: 'CEMFLH9_S2c', 103: 'CEMGLH8_M1c', 104: 'CHMHLH10_M1b', 105: 'CBMCLD7_S1a', 106: 'CCMDLF7_M1b', 107: 'CCMDLE4_S0', 108: 'CHMHLH11_M2d', 109: 'CBMBLC3MMM_P1c', 110: 'CEMFLH16_M1d', 111: 'CEMFLH11_S2c', 112: 'CBMCLD5_S1f', 113: 'CCMDLF2LM_S0', 114: 'CEMGLH11_S2d', 115: 'CCMCLE11_M2c', 116: 'CAMALA5_M1d', 117: 'CAMALA4_S0', 118: 'CDMELG8_S2a', 119: 'CEMELF1L_S0', 120: 'CAMBLB3MPP_S2a', 121: 'CEMFLG9_S1c', 122: 'CCMCLD2LM_S0', 123: 'CAMALA2MP_S0', 124: 'CHMHLH11_M1a', 125: 'CDMELF7_S1a', 126: 'CFMGLH4_S2a', 127: 'CDMDLE3PLP_S0', 128: 'CGMHLH13_S2d', 129: 'CCMDLD4_S2f', 130: 'CHMHLH11_S2a', 131: 'CEMELF2MP_P1f', 132: 'CDMDLE4_S2a', 133: 'CHMHLH10_S2c', 134: 'CCMCLD4_S2f', 135: 'CCMCLD8_S2c', 136: 'CCMDLD4_M1a', 137: 'CDMELF7_M1d', 138: 'CDMELF4_M1f', 139: 'CDMDLE5_S2c', 140: 'CAMALA5_S2a', 141: 'CCMDLD4_M1c', 142: 'CEMFLG6_S0', 143: 'CEMELF9_S1f', 144: 'CDMDLE7_M1b', 145: 'CFMGLH10_S1c', 146: 'CDMELF2PM_P1f', 147: 'CHMDLE6_M1d', 148: 'CHMHLH16_M1c', 149: 'CDMBLC5_S0', 150: 'CDMBLC1M_S0', 151: 'CCMBLB1P_S0', 152: 'CGMDLE4_S2f', 153: 'CDMBLC3PLP_S2a', 154: 'CFMDLD6_S2a', 155: 'CFMDLD10_M1e', 156: 'CCMBLB2PM_P1a', 157: 'CEMCLC4_P1c', 158: 'CHMFLH3LPP_P1c', 159: 'CDMBLB1M_S0', 160: 'CHMHLH2MP_S0', 161: 'CAMALA2MP_P1a', 162: 'CEMCLD4_S2a', 163: 'CHMHLH6_S2a', 164: 'CDMELF3MPM_S0', 165: 'CBMCLD5_S0', 166: 'CEMGLH10_S2b', 167: 'CDMELF5_S1a', 168: 'CBMCLC4_S2f', 169: 'CCMCLD3PPM_P1a', 170: 'CCMDLE2MM_S0', 171: 'CGMHLH4_S2f', 172: 'CBMCLC2PP_P1a', 173: 'CCMDLE5_S2c', 174: 'CGMHLH7_S2c', 175: 'CAMBLB3PPP_S0', 176: 'CCMCLD2MP_P1a', 177: 'CGMHLH10_M1d', 178: 'CEMGLH11_M1d', 179: 'CEMGLH6_M1a', 180: 'CDMELF2MM_S0', 181: 'CGMHLH8_S2a', 182: 'CCMDLE3PMP_S2f', 183: 'CHMHLH7_S1f', 184: 'CHMHLH8_S2f', 185: 'CFMHLH4_S2f', 186: 'CCMDLE6_S1a', 187: 'CHMHLH5_S0', 188: 'CGMHLH9_S1c', 189: 'CGMHLH8_M1a', 190: 'CEMFLH8_S2c', 191: 'CEMELH4_S0', 192: 'CAMALA3MMP_P1c', 193: 'CBMBLD2MM_S0', 194: 'CGMHLH6_M1c', 195: 'CDMDLH8_S1a', 196: 'CHMHLH4_S2a', 197: 'CBMFLE5_S0', 198: 'CHMHLH6_S1f', 199: 'CEMHLH3MPM_S2f', 200: 'CBMFLE3MPP_S2f', 201: 'CHMHLH10_S2d', 202: 'CHMHLH9_S1a', 203: 'CHMHLH5_S1a', 204: 'CCMHLG5_S1f', 205: 'CCMGLE3MPP_S0', 206: 'CCMHLG4_S0', 207: 'CCMHLG5_M1d', 208: 'CHMHLH8_M1d', 209: 'CAMCLC2PP_S0', 210: 'CBMDLC2PP_S0', 211: 'CEMHLH6_S0', 212: 'CBMFLE3LPP_S2f', 213: 'CCMHLG3LMP_S0', 214: 'CDMHLH4_S0', 215: 'CGMHLH6_S1a', 216: 'CFMHLH10_M1a'}
+in base al numero che vedi per le emissioni in questo dizionario avremo i pattern corrispondenti
