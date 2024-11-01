@@ -46,13 +46,13 @@ Array con i pattern della settimana 2019-04-15 00:00:00 da LUN a DOM [14]
 Array con i pattern della settimana 2019-04-22 00:00:00 da LUN a DOM [15] PRIMO PERIODO
 ['CFMFLH6_S0', 'CHMHLH9_M1b', 'CAMALA1M_S0', 'CAMALA1M_S0', 'CDMDLE7_S2c', 'CHMGLH7_S2c', 'CCMCLD7_S2c']
 [12493. 32722.   753.   870.  7962. 16808.  6170.]
-Array con i pattern della settimana 2019-04-29 00:00:00 da LUN a DOM [16]
+Array con i pattern della settimana 2019-04-29 00:00:00 da LUN a DOM [16] PRIMO PERIODO
 ['CCMCLD2MM_P1f', 'CAMALA2PP_S0', 'CHMHLH6_S1a', 'CCMBLC4_S0', 'CDMCLD4_M1c', 'CFMDLF6_S2f', 'CCMBLC2PL_S0']
 [ 5314.   217. 41191.  4857.  6009.  9599.  4976.]
-Array con i pattern della settimana 2019-05-06 00:00:00 da LUN a DOM [17]
+Array con i pattern della settimana 2019-05-06 00:00:00 da LUN a DOM [17] PRIMO PERIODO
 ['CDMCLE6_S2a', 'CDMCLD3MPM_S0', 'CEMDLE4_S2a', 'CCMCLD4_S2a', 'CCMCLD2MP_P1f', '0', '0']
 [7087. 5861. 8221. 5312. 5602.    0.    0.]
-Array con i pattern della settimana 2019-05-13 00:00:00 da LUN a DOM [18]
+Array con i pattern della settimana 2019-05-13 00:00:00 da LUN a DOM [18] PRIMO PERIODO
 ['CAMALA3PPP_S2a', 'CDMCLE5_S1f', 'CEMDLF4_S2f', 'CDMCLD1L_S0', 'CDMCLD4_S2f', 'CHMHLH6_S2c', 'CCMCLD9_S2c']
 [  108.  6994.  9478.  6191.  6511. 21086.  5247.]
 Array con i pattern della settimana 2019-05-20 00:00:00 da LUN a DOM [19]
@@ -76,13 +76,13 @@ Array con i pattern della settimana 2019-06-24 00:00:00 da LUN a DOM [24]
 Array con i pattern della settimana 2019-07-01 00:00:00 da LUN a DOM [25] PERIODO TRE
 ['CEMELF1L_S0', 'CAMBLB3MPP_S2a', 'CEMFLG9_S1c', 'CCMCLD2LM_S0', 'CAMALA2MP_S0', 'CHMHLH11_M1a', 'CDMELF7_S1a']
 [ 6201.  1372.  6883.  3762.   715. 11253.  5816.]
-Array con i pattern della settimana 2019-07-08 00:00:00 da LUN a DOM [26]
+Array con i pattern della settimana 2019-07-08 00:00:00 da LUN a DOM [26] PERIODO TRE
 ['CFMGLH4_S2a', 'CDMDLE3PLP_S0', 'CGMHLH13_S2d', 'CCMDLD4_S2f', 'CHMHLH11_S2a', 'CEMELF2MP_P1f', 'CHMHLH9_S2a']
 [ 8548.  4691.  9481.  4337. 25061.  6349. 13882.]
-Array con i pattern della settimana 2019-07-15 00:00:00 da LUN a DOM [27]
+Array con i pattern della settimana 2019-07-15 00:00:00 da LUN a DOM [27] PERIODO TRE
 ['CDMDLE4_S2a', 'CHMHLH10_S2c', 'CCMCLD4_S2f', 'CCMCLD8_S2c', 'CAMALA2PP_S0', '0', 'CCMDLD4_M1a']
 [ 4715. 11885.  3480.  3720.   236.     0.  4059.]
-Array con i pattern della settimana 2019-07-22 00:00:00 da LUN a DOM [28]
+Array con i pattern della settimana 2019-07-22 00:00:00 da LUN a DOM [28] PERIODO TRE
 ['CDMELF7_M1d', 'CDMELF4_M1f', 'CDMDLE5_S2c', 'CAMALA5_S2a', 'CCMDLD4_M1c', 'CEMFLG6_S0', 'CEMELF9_S1f']
 [6058. 5518. 4656.  652. 4369. 7310. 6355.]
 Array con i pattern della settimana 2019-07-29 00:00:00 da LUN a DOM [29]
@@ -91,13 +91,13 @@ Array con i pattern della settimana 2019-07-29 00:00:00 da LUN a DOM [29]
 Array con i pattern della settimana 2019-08-05 00:00:00 da LUN a DOM [30] SECONDO PERIODO
 ['CHMHLH16_M1c', 'CDMBLC5_S0', 'CDMBLC1M_S0', 'CCMBLB1P_S0', 'CGMDLE4_S2f', '0', '0']
 [16734.  2505.  2249.  1656.  4843.     0.     0.]
-Array con i pattern della settimana 2019-08-12 00:00:00 da LUN a DOM [31]
+Array con i pattern della settimana 2019-08-12 00:00:00 da LUN a DOM [31] SECONDO PERIODO
 ['0', 'CDMBLC3PLP_S2a', '0', 'CFMDLD6_S2a', 'CFMDLD10_M1e', 'CCMBLB2PM_P1a', 'CEMCLC4_P1c']
 [0.000e+00 2.389e+03 2.000e+00 4.054e+03 4.079e+03 2.001e+03 2.950e+03]
-Array con i pattern della settimana 2019-08-19 00:00:00 da LUN a DOM [32]
+Array con i pattern della settimana 2019-08-19 00:00:00 da LUN a DOM [32] SECONDO PERIODO
 ['CHMFLH3LPP_P1c', '0', '0', 'CDMBLB1M_S0', '0', '0', 'CHMHLH2MP_S0']
 [ 7733.     0.     0.  2171.     0.     0. 14104.]
-Array con i pattern della settimana 2019-08-26 00:00:00 da LUN a DOM [33]
+Array con i pattern della settimana 2019-08-26 00:00:00 da LUN a DOM [33] SECONDO PERIODO
 ['0', '0', '0', 'CAMALA2MP_P1a', 'CEMCLD4_S2a', 'CHMHLH6_S2a', 'CAMALA4_S2a']
 [    0.     0.     0.   333.  3346. 11636.   475.]
 Array con i pattern della settimana 2019-09-02 00:00:00 da LUN a DOM [34]
@@ -205,4 +205,3 @@ P(M4)≈0.132
 P(M5)≈0.053
 P(M7)≈0.026
 -oss: le percentuali possono essere scritte in decimali (i.e. la somma =1 ) o in percentuali (i.e. la somma=100%)
-
