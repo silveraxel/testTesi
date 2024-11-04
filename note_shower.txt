@@ -1,0 +1,276 @@
+Shower
+Media MENSILE: [0.0, 540.5, 10841.838709677419, 11077.1, 10487.838709677419, 21800.066666666666, 16696.74193548387, 6439.387096774193, 15370.833333333334, 22507.709677419356, 0.0, 0.0]
+
+Media TRIMESTRALE: [3902.5666666666666, 14411.406593406593, 12808.097826086956, 7584.119565217391]
+
+Media SEMESTRALE: [9186.016574585636, 10196.108695652174]
+
+Media ANNUALE: 9695.213698630138
+
+Array con i pattern della settimana 2019-01-07 00:00:00 da LUN a DOM [0]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-01-14 00:00:00 da LUN a DOM [1]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-01-21 00:00:00 da LUN a DOM [2]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-01-28 00:00:00 da LUN a DOM [3]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-02-04 00:00:00 da LUN a DOM [4]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-02-11 00:00:00 da LUN a DOM [5]
+['0', '0', 'CCMALA1P_S0', '0', '0', '0', '0']
+[  0.   0. 298.   0.   0.   0.   0.]
+Array con i pattern della settimana 2019-02-18 00:00:00 da LUN a DOM [6]
+['0', '0', '0', '0', '0', 'CCMALA2PM_S0', '0']
+[  0.   0.   0.   0.   0. 280.   0.]
+Array con i pattern della settimana 2019-02-25 00:00:00 da LUN a DOM [7]
+['CAMALA1P_S0', 'CAMALA3PPP_S0', 'CHMHLG1P_S0', 'CAMALA4_M1f', 'CAMALA5_S1a', 'CHMHLH2MP_P1a', 'CAMALA2PP_S0']
+[2.9000e+01 1.3000e+01 1.4480e+04 2.6000e+01 2.3000e+01 4.7271e+04
+ 4.2000e+01]
+Array con i pattern della settimana 2019-03-04 00:00:00 da LUN a DOM [8]
+['CAMALA3PPP_S0', '0', 'CHMHLH6_S1a', '0', '0', '0', 'CHMHLH1M_S0']
+[3.5000e+01 0.0000e+00 5.7324e+04 0.0000e+00 0.0000e+00 0.0000e+00
+ 3.3186e+04]
+Array con i pattern della settimana 2019-03-11 00:00:00 da LUN a DOM [9]
+['0', '0', 'CHMHLH1M_S0', '0', '0', '0', '0']
+[    0.     0. 55628.     0.     0.     0.     0.]
+Array con i pattern della settimana 2019-03-18 00:00:00 da LUN a DOM [10]
+['0', 'CEMHLF1P_S0', 'CHMHLH1M_S0', '0', 'CAMALA6_S1f', '0', 'CHMHLH3PPM_S0']
+[0.0000e+00 1.2832e+04 4.2158e+04 0.0000e+00 3.4000e+01 0.0000e+00
+ 4.1979e+04]
+Array con i pattern della settimana 2019-03-25 00:00:00 da LUN a DOM [11]
+['CAMALA2PP_S0', '0', 'CHMHLH1P_S0', '0', '0', '0', '0']
+[1.0000e+01 0.0000e+00 4.5565e+04 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00]
+Array con i pattern della settimana 2019-04-01 00:00:00 da LUN a DOM [12]
+['CHMGLH1P_S0', '0', 'CHMHLH1M_S0', '0', 'CHMHLH2PM_S0', '0', 'CHMHLH1M_S0']
+[21788.     0. 34094.     0. 37694.     0. 35519.]
+Array con i pattern della settimana 2019-04-08 00:00:00 da LUN a DOM [13]
+['0', 'CHMHLH2PP_S0', '0', '0', 'CAMALA3PPP_S0', 'CAMALA2PP_S0', '0']
+[0.0000e+00 3.4699e+04 0.0000e+00 0.0000e+00 1.3000e+01 2.8000e+01
+ 0.0000e+00]
+Array con i pattern della settimana 2019-04-15 00:00:00 da LUN a DOM [14]
+['CHMFLH1P_S0', '0', 'CFMDLG1M_S0', 'CHMHLH1P_S0', 'CHMHLH2PP_P1f', '0', '0']
+[20705.     0. 13926. 33510. 29488.     0.     0.]
+Array con i pattern della settimana 2019-04-22 00:00:00 da LUN a DOM [15] PRIMO PERIODO
+['0', 'CHMHLH3PMP_S0', 'CAMALA1P_S0', '0', 'CHMFLH2PP_S0', 'CAMALA3PPP_S0', 'CGMELH1M_S0']
+[0.0000e+00 3.2836e+04 1.3000e+01 0.0000e+00 2.0410e+04 1.5000e+01
+ 1.7547e+04]
+Array con i pattern della settimana 2019-04-29 00:00:00 da LUN a DOM [16] PRIMO PERIODO
+['0', '0', 'CHMHLH1M_S0', '0', '0', 'CGMFLH1P_S0', '0']
+[    0.     0. 49883.     0.     0. 18118.     0.]
+Array con i pattern della settimana 2019-05-06 00:00:00 da LUN a DOM [17] PRIMO PERIODO
+['0', '0', '0', 'CHMHLH1M_S0', '0', '0', '0']
+[    0.     0.     0. 37994.     0.     0.     0.]
+Array con i pattern della settimana 2019-05-13 00:00:00 da LUN a DOM [18] PRIMO PERIODO
+['CAMALA1P_S0', 'CHMGLH1M_S0', 'CHMHLH3MPP_S2a', '0', '0', 'CGMFLH1P_S0', '0']
+[2.1000e+01 2.2482e+04 3.1503e+04 0.0000e+00 0.0000e+00 1.8118e+04
+ 0.0000e+00]
+Array con i pattern della settimana 2019-05-20 00:00:00 da LUN a DOM [19]
+['CCMBLC2MP_S0', 'CHMFLH1P_S0', 'CHMHLH1P_S0', 'CHMHLH2PP_S0', '0', '0', '0']
+[ 6658. 20951. 41961. 27931.     0.     0.     0.]
+Array con i pattern della settimana 2019-05-27 00:00:00 da LUN a DOM [20]
+['CAMALA1P_S0', 'CHMGLH1M_S0', '0', 'CHMHLH1P_S0', 'CAMALA1P_S0', 'CAMALA6_S1f', 'CGMHLH1P_S0']
+[1.0900e+02 2.2118e+04 0.0000e+00 2.7248e+04 2.4000e+01 4.2000e+01
+ 3.3135e+04]
+Array con i pattern della settimana 2019-06-03 00:00:00 da LUN a DOM [21]
+['CDMFLH1M_S0', 'CCMDLF1M_S0', 'CHMHLH1M_S0', 'CGMHLH2PP_S0', 'CFMHLH2PP_S0', 'CFMHLH1P_S0', 'CFMHLH1P_S0']
+[19638. 13554. 57072. 34182. 28689. 30881. 29238.]
+Array con i pattern della settimana 2019-06-10 00:00:00 da LUN a DOM [22]
+['CEMHLH2PP_S0', 'CDMFLH1P_S0', 'CFMHLH2MM_S0', 'CEMGLH1M_S0', 'CHMHLH2MP_S0', 'CHMHLH3PMM_S2a', 'CAMBLC1M_S0']
+[25328. 19031. 31785. 23516. 91829. 45735.  5388.]
+Array con i pattern della settimana 2019-06-17 00:00:00 da LUN a DOM [23]
+['0', 'CAMALB3PPP_S0', 'CDMFLH2PP_S0', 'CBMCLD1P_S0', 'CBMCLE1P_S0', 'CBMDLE1P_S0', 'CCMDLF1P_S0']
+[    0.  2777. 20063.  7218.  9906. 10824. 11602.]
+Array con i pattern della settimana 2019-06-24 00:00:00 da LUN a DOM [24]
+['CEMHLH2MP_S0', 'CHMHLH6_S0', 'CAMALA2PP_P1a', 'CDMELH1P_S0', '0', 'CAMALA1P_S0', 'CDMFLH4_S2a']
+[2.6857e+04 4.0668e+04 6.6000e+01 1.6409e+04 0.0000e+00 1.2000e+01
+ 1.8557e+04]
+Array con i pattern della settimana 2019-07-01 00:00:00 da LUN a DOM [25] PERIODO TRE
+['CDMDLE1P_S0', '0', 'CHMHLH1M_S0', 'CDMELF1M_S0', '0', 'CHMHLH3PMP_S0', 'CBMBLB1P_S0']
+[12709.     0. 47586. 14239.     0. 51671.  4760.]
+Array con i pattern della settimana 2019-07-08 00:00:00 da LUN a DOM [26] PERIODO TRE
+['CHMHLH2PP_S0', 'CBMCLC1P_S0', 'CHMHLH5_S1a', '0', 'CHMHLH4_S0', '0', 'CHMHLH2PM_S0']
+[46100.  6569. 33009.     0. 34634.     0. 72748.]
+Array con i pattern della settimana 2019-07-15 00:00:00 da LUN a DOM [27] PERIODO TRE
+['CAMALA2PP_S0', 'CFMGLH2PP_S0', 'CBMCLC1P_S0', 'CBMBLC1M_S0', '0', '0', 'CCMCLD3PMP_S2a']
+[1.3000e+01 2.1178e+04 6.8850e+03 5.2950e+03 0.0000e+00 0.0000e+00
+ 8.6990e+03]
+Array con i pattern della settimana 2019-07-22 00:00:00 da LUN a DOM [28] PERIODO TRE
+['CEMFLH3PMP_S2f', 'CFMGLH2PP_S0', 'CCMDLD1P_S0', 'CAMBLB6_S2c', 'CAMALB1M_S0', '0', '0']
+[18934. 21511.  9719.  3729.  2943.     0.     0.]
+Array con i pattern della settimana 2019-07-29 00:00:00 da LUN a DOM [29]
+['CDMFLG2PP_P1a', 'CHMHLH3MPP_S2a', 'CDMFLG1P_S0', '0', '0', '0', 'CHMHLH1M_S0']
+[16046. 62161. 16439.     0.     0.     0. 24850.]
+Array con i pattern della settimana 2019-08-05 00:00:00 da LUN a DOM [30] SECONDO PERIODO
+['CHMFLH2MP_P1f', '0', '0', 'CAMALA1P_S0', '0', '0', '0']
+[18906.     0.     0.    56.     0.     0.     0.]
+Array con i pattern della settimana 2019-08-12 00:00:00 da LUN a DOM [31] SECONDO PERIODO
+['0', 'CHMHLH1M_S0', 'CAMALA6_S0', 'CHMGLH2PM_S0', 'CHMHLH4_S2f', '0', 'CAMALA1P_S0']
+[0.0000e+00 3.2982e+04 1.5900e+02 2.1170e+04 2.9588e+04 0.0000e+00
+ 1.3000e+01]
+Array con i pattern della settimana 2019-08-19 00:00:00 da LUN a DOM [32] SECONDO PERIODO
+['CHMFLG1P_S0', '0', '0', 'CHMHLH1P_S0', '0', '0', '0']
+[16631.     0.     0. 28395.     0.     0.     0.]
+Array con i pattern della settimana 2019-08-26 00:00:00 da LUN a DOM [33] SECONDO PERIODO
+['0', '0', '0', '0', 'CHMELF2PM_S0', 'CHMDLE1M_S0', 'CAMALA2PP_S0']
+[0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 1.5165e+04 1.1700e+04
+ 1.2000e+01]
+Array con i pattern della settimana 2019-09-02 00:00:00 da LUN a DOM [34]
+['CDMDLE1P_S0', 'CCMDLE2MP_S0', '0', 'CEMFLH1P_S0', 'CEMFLH1P_S0', 'CGMHLH2PM_S0', 'CAMALA1P_S0']
+[12635. 10658.     0. 18848. 18093. 23705.    72.]
+Array con i pattern della settimana 2019-09-09 00:00:00 da LUN a DOM [35]
+['CCMDLE2PP_S0', 'CHMHLH2PM_S0', '0', '0', 'CAMALA3PPP_S0', 'CBMCLC3PPP_S2a', '0']
+[1.0421e+04 5.7221e+04 0.0000e+00 0.0000e+00 2.3000e+01 6.6870e+03
+ 0.0000e+00]
+Array con i pattern della settimana 2019-09-16 00:00:00 da LUN a DOM [36]
+['CGMHLH1M_S0', 'CAMALA2PP_P1a', 'CHMHLH6_S2c', 'CCMCLD1P_S0', 'CAMALA2PP_P1a', 'CFMHLH4_S0', 'CGMHLH1P_S0']
+[24675.    61. 52407.  9228.    61. 22544. 24840.]
+Array con i pattern della settimana 2019-09-23 00:00:00 da LUN a DOM [37]
+['CDMELG2PP_S0', 'CFMGLH1P_S0', 'CFMGLH1P_S0', 'CGMHLH1M_S0', 'CDMDLE3PPP_S0', 'CCMCLD1P_S0', 'CHMHLH2MP_P1f']
+[15322. 20554. 22041. 25215. 12399.  8370. 54371.]
+Array con i pattern della settimana 2019-09-30 00:00:00 da LUN a DOM [38]
+['CCMDLE1P_S0', 'CDMHLH1P_S0', '0', 'CHMHLH1M_S0', 'CBMELD1P_S0', 'CCMFLE1P_S0', 'CEMHLH2MP_P1f']
+[10660. 20166.     0. 39461.  8588. 11276. 26997.]
+Array con i pattern della settimana 2019-10-07 00:00:00 da LUN a DOM [39]
+['CAMALA4_S0', 'CHMHLH2PP_S0', 'CGMHLH3MPM_S2f', 'CCMFLE1P_S0', 'CFMHLH1M_S0', 'CCMHLF1M_S0', 'CHMHLH2MP_S0']
+[  190. 55033. 38060. 11364. 33571. 13297. 57184.]
+Array con i pattern della settimana 2019-10-14 00:00:00 da LUN a DOM [40]
+['CCMHLF4_S0', 'CGMHLH2PP_S0', 'CCMGLE2PP_S0', 'CHMHLH2MP_S0', 'CDMHLG1P_S0', 'CHMHLH4_S0', '0']
+[13767. 37564. 12467. 61289. 17758. 42328.     0.]
+Array con i pattern della settimana 2019-10-21 00:00:00 da LUN a DOM [41]
+['CAMALA1P_S0', 'CDMHLH2MP_S0', '0', 'CGMHLH1M_S0', 'CEMHLH1M_S0', 'CEMHLH3PPM_S0', 'CGMHLH3MMP_S0']
+[1.2000e+01 2.0944e+04 0.0000e+00 3.3935e+04 2.6811e+04 2.6605e+04
+ 3.6633e+04]
+Array con i pattern della settimana 2019-10-28 00:00:00 da LUN a DOM [42]
+['CHMHLH3MPP_S0', '0', '0', '0', '0', '0', '0']
+[52439.     0.     0.     0.     0.     0.     0.]
+Array con i pattern della settimana 2019-11-04 00:00:00 da LUN a DOM [43]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-11-11 00:00:00 da LUN a DOM [44]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-11-18 00:00:00 da LUN a DOM [45]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-11-25 00:00:00 da LUN a DOM [46]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-12-02 00:00:00 da LUN a DOM [47]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-12-09 00:00:00 da LUN a DOM [48]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-12-16 00:00:00 da LUN a DOM [49]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+Array con i pattern della settimana 2019-12-23 00:00:00 da LUN a DOM [50]
+['0', '0', '0', '0', '0', '0', '0']
+[0. 0. 0. 0. 0. 0. 0.]
+
+diz_patterns
+{'0': 1, 'CAMALA4_M1f': 7, 'CAMALA3PPP_S0': 5, 'CAMALA2PP_P1a': 51, 'CAMALA2PP_S0': 10, 'CAMALA1P_S0': 4, 'CAMALA4_S0': 94, 'CAMALA6_S0': 70, 'CAMALA5_S1a': 8, 'CAMALA6_S1f': 14, 'CAMALB1M_S0': 66, 'CAMALB3PPP_S0': 43, 'CAMBLB6_S2c': 65, 'CAMBLC1M_S0': 42, 'CBMBLB1P_S0': 56, 'CBMBLC1M_S0': 61, 'CBMCLC3PPP_S2a': 80, 'CBMCLC1P_S0': 57, 'CBMCLD1P_S0': 45, 'CBMCLE1P_S0': 46, 'CBMDLE1P_S0': 47, 'CBMELD1P_S0': 91, 'CCMALA2PM_S0': 3, 'CCMALA1P_S0': 2, 'CCMBLC2MP_S0': 29, 'CCMCLD3PMP_S2a': 62, 'CCMCLD1P_S0': 83, 'CCMDLD1P_S0': 64, 'CCMDLE2MP_S0': 76, 'CCMDLE2PP_S0': 79, 'CCMDLE1P_S0': 89, 'CCMDLF1M_S0': 32, 'CCMDLF1P_S0': 48, 'CCMFLE1P_S0': 92, 'CCMGLE2PP_S0': 99, 'CCMHLF1M_S0': 97, 'CCMHLF4_S0': 98, 'CDMDLE3PPP_S0': 87, 'CDMDLE1P_S0': 54, 'CDMELF1M_S0': 55, 'CDMELG2PP_S0': 85, 'CDMELH1P_S0': 52, 'CDMFLG2PP_P1a': 67, 'CDMFLG1P_S0': 68, 'CDMFLH1M_S0': 31, 'CDMFLH2PP_S0': 44, 'CDMFLH1P_S0': 37, 'CDMFLH4_S2a': 53, 'CDMHLG1P_S0': 100, 'CDMHLH2MP_S0': 101, 'CDMHLH1P_S0': 90, 'CEMFLH3PMP_S2f': 63, 'CEMFLH1P_S0': 77, 'CEMGLH1M_S0': 39, 'CEMHLF1P_S0': 13, 'CEMHLH2MP_P1f': 93, 'CEMHLH2MP_S0': 49, 'CEMHLH1M_S0': 102, 'CEMHLH3PPM_S0': 103, 'CEMHLH2PP_S0': 36, 'CFMDLG1M_S0': 21, 'CFMGLH2PP_S0': 60, 'CFMGLH1P_S0': 86, 'CFMHLH2MM_S0': 38, 'CFMHLH1M_S0': 96, 'CFMHLH2PP_S0': 34, 'CFMHLH1P_S0': 35, 'CFMHLH4_S0': 84, 'CGMELH1M_S0': 25, 'CGMFLH1P_S0': 26, 'CGMHLH3MMP_S0': 104, 'CGMHLH3MPM_S2f': 95, 'CGMHLH1M_S0': 81, 'CGMHLH2PM_S0': 78, 'CGMHLH2PP_S0': 33, 'CGMHLH1P_S0': 30, 'CHMDLE1M_S0': 75, 'CHMELF2PM_S0': 74, 'CHMFLG1P_S0': 73, 'CHMFLH2MP_P1f': 69, 'CHMFLH2PP_S0': 24, 'CHMFLH1P_S0': 20, 'CHMGLH1M_S0': 27, 'CHMGLH2PM_S0': 71, 'CHMGLH1P_S0': 17, 'CHMHLG1P_S0': 6, 'CHMHLH3MPP_S0': 105, 'CHMHLH3MPP_S2a': 28, 'CHMHLH2MP_P1a': 9, 'CHMHLH2MP_P1f': 88, 'CHMHLH2MP_S0': 40, 'CHMHLH1M_S0': 12, 'CHMHLH3PMM_S2a': 41, 'CHMHLH3PMP_S0': 23, 'CHMHLH2PM_S0': 18, 'CHMHLH3PPM_S0': 15, 'CHMHLH2PP_P1f': 22, 'CHMHLH2PP_S0': 19, 'CHMHLH1P_S0': 16, 'CHMHLH4_S0': 59, 'CHMHLH6_S0': 50, 'CHMHLH5_S1a': 58, 'CHMHLH6_S1a': 11, 'CHMHLH6_S2c': 82, 'CHMHLH4_S2f': 72}
+105
+
+diz_countpatterns
+{'0': 193, 'CAMALA4_M1f': 1, 'CAMALA3PPP_S0': 5, 'CAMALA2PP_P1a': 3, 'CAMALA2PP_S0': 5, 'CAMALA1P_S0': 10, 'CAMALA4_S0': 1, 'CAMALA6_S0': 1, 'CAMALA5_S1a': 1, 'CAMALA6_S1f': 2, 'CAMALB1M_S0': 1, 'CAMALB3PPP_S0': 1, 'CAMBLB6_S2c': 1, 'CAMBLC1M_S0': 1, 'CBMBLB1P_S0': 1, 'CBMBLC1M_S0': 1, 'CBMCLC3PPP_S2a': 1, 'CBMCLC1P_S0': 2, 'CBMCLD1P_S0': 1, 'CBMCLE1P_S0': 1, 'CBMDLE1P_S0': 1, 'CBMELD1P_S0': 1, 'CCMALA2PM_S0': 1, 'CCMALA1P_S0': 1, 'CCMBLC2MP_S0': 1, 'CCMCLD3PMP_S2a': 1, 'CCMCLD1P_S0': 2, 'CCMDLD1P_S0': 1, 'CCMDLE2MP_S0': 1, 'CCMDLE2PP_S0': 1, 'CCMDLE1P_S0': 1, 'CCMDLF1M_S0': 1, 'CCMDLF1P_S0': 1, 'CCMFLE1P_S0': 2, 'CCMGLE2PP_S0': 1, 'CCMHLF1M_S0': 1, 'CCMHLF4_S0': 1, 'CDMDLE3PPP_S0': 1, 'CDMDLE1P_S0': 2, 'CDMELF1M_S0': 1, 'CDMELG2PP_S0': 1, 'CDMELH1P_S0': 1, 'CDMFLG2PP_P1a': 1, 'CDMFLG1P_S0': 1, 'CDMFLH1M_S0': 1, 'CDMFLH2PP_S0': 1, 'CDMFLH1P_S0': 1, 'CDMFLH4_S2a': 1, 'CDMHLG1P_S0': 1, 'CDMHLH2MP_S0': 1, 'CDMHLH1P_S0': 1, 'CEMFLH3PMP_S2f': 1, 'CEMFLH1P_S0': 2, 'CEMGLH1M_S0': 1, 'CEMHLF1P_S0': 1, 'CEMHLH2MP_P1f': 1, 'CEMHLH2MP_S0': 1, 'CEMHLH1M_S0': 1, 'CEMHLH3PPM_S0': 1, 'CEMHLH2PP_S0': 1, 'CFMDLG1M_S0': 1, 'CFMGLH2PP_S0': 2, 'CFMGLH1P_S0': 2, 'CFMHLH2MM_S0': 1, 'CFMHLH1M_S0': 1, 'CFMHLH2PP_S0': 1, 'CFMHLH1P_S0': 2, 'CFMHLH4_S0': 1, 'CGMELH1M_S0': 1, 'CGMFLH1P_S0': 2, 'CGMHLH3MMP_S0': 1, 'CGMHLH3MPM_S2f': 1, 'CGMHLH1M_S0': 3, 'CGMHLH2PM_S0': 1, 'CGMHLH2PP_S0': 2, 'CGMHLH1P_S0': 2, 'CHMDLE1M_S0': 1, 'CHMELF2PM_S0': 1, 'CHMFLG1P_S0': 1, 'CHMFLH2MP_P1f': 1, 'CHMFLH2PP_S0': 1, 'CHMFLH1P_S0': 2, 'CHMGLH1M_S0': 2, 'CHMGLH2PM_S0': 1, 'CHMGLH1P_S0': 1, 'CHMHLG1P_S0': 1, 'CHMHLH3MPP_S0': 1, 'CHMHLH3MPP_S2a': 2, 'CHMHLH2MP_P1a': 1, 'CHMHLH2MP_P1f': 1, 'CHMHLH2MP_S0': 3, 'CHMHLH1M_S0': 12, 'CHMHLH3PMM_S2a': 1, 'CHMHLH3PMP_S0': 2, 'CHMHLH2PM_S0': 3, 'CHMHLH3PPM_S0': 1, 'CHMHLH2PP_P1f': 1, 'CHMHLH2PP_S0': 4, 'CHMHLH1P_S0': 5, 'CHMHLH4_S0': 2, 'CHMHLH6_S0': 1, 'CHMHLH5_S1a': 1, 'CHMHLH6_S1a': 1, 'CHMHLH6_S2c': 1, 'CHMHLH4_S2f': 1}
+
+OSS: PATTERN CHE SI RIPETONO 
+    occorrenza 193:	 pattern ['0']
+    pattern con questa occorrenza 1
+
+    occorrenza 1:	 pattern ['CAMALA4_M1f', 'CAMALA4_S0', 'CAMALA6_S0', 'CAMALA5_S1a', 'CAMALB1M_S0', 'CAMALB3PPP_S0', 'CAMBLB6_S2c', 'CAMBLC1M_S0', 'CBMBLB1P_S0', 'CBMBLC1M_S0', 'CBMCLC3PPP_S2a', 'CBMCLD1P_S0', 'CBMCLE1P_S0', 'CBMDLE1P_S0', 'CBMELD1P_S0', 'CCMALA2PM_S0', 'CCMALA1P_S0', 'CCMBLC2MP_S0', 'CCMCLD3PMP_S2a', 'CCMDLD1P_S0', 'CCMDLE2MP_S0', 'CCMDLE2PP_S0', 'CCMDLE1P_S0', 'CCMDLF1M_S0', 'CCMDLF1P_S0', 'CCMGLE2PP_S0', 'CCMHLF1M_S0', 'CCMHLF4_S0', 'CDMDLE3PPP_S0', 'CDMELF1M_S0', 'CDMELG2PP_S0', 'CDMELH1P_S0', 'CDMFLG2PP_P1a', 'CDMFLG1P_S0', 'CDMFLH1M_S0', 'CDMFLH2PP_S0', 'CDMFLH1P_S0', 'CDMFLH4_S2a', 'CDMHLG1P_S0', 'CDMHLH2MP_S0', 'CDMHLH1P_S0', 'CEMFLH3PMP_S2f', 'CEMGLH1M_S0', 'CEMHLF1P_S0', 'CEMHLH2MP_P1f', 'CEMHLH2MP_S0', 'CEMHLH1M_S0', 'CEMHLH3PPM_S0', 'CEMHLH2PP_S0', 'CFMDLG1M_S0', 'CFMHLH2MM_S0', 'CFMHLH1M_S0', 'CFMHLH2PP_S0', 'CFMHLH4_S0', 'CGMELH1M_S0', 'CGMHLH3MMP_S0', 'CGMHLH3MPM_S2f', 'CGMHLH2PM_S0', 'CHMDLE1M_S0', 'CHMELF2PM_S0', 'CHMFLG1P_S0', 'CHMFLH2MP_P1f', 'CHMFLH2PP_S0', 'CHMGLH2PM_S0', 'CHMGLH1P_S0', 'CHMHLG1P_S0', 'CHMHLH3MPP_S0', 'CHMHLH2MP_P1a', 'CHMHLH2MP_P1f', 'CHMHLH3PMM_S2a', 'CHMHLH3PPM_S0', 'CHMHLH2PP_P1f', 'CHMHLH6_S0', 'CHMHLH5_S1a', 'CHMHLH6_S1a', 'CHMHLH6_S2c', 'CHMHLH4_S2f']
+    pattern con questa occorrenza 77
+
+    occorrenza 5:	 pattern ['CAMALA3PPP_S0', 'CAMALA2PP_S0', 'CHMHLH1P_S0']
+    pattern con questa occorrenza 3
+
+    occorrenza 3:	 pattern ['CAMALA2PP_P1a', 'CGMHLH1M_S0', 'CHMHLH2MP_S0', 'CHMHLH2PM_S0']
+    pattern con questa occorrenza 4
+
+    occorrenza 10:	 pattern ['CAMALA1P_S0']
+    pattern con questa occorrenza 1
+
+    occorrenza 2:	 pattern ['CAMALA6_S1f', 'CBMCLC1P_S0', 'CCMCLD1P_S0', 'CCMFLE1P_S0', 'CDMDLE1P_S0', 'CEMFLH1P_S0', 'CFMGLH2PP_S0', 'CFMGLH1P_S0', 'CFMHLH1P_S0', 'CGMFLH1P_S0', 'CGMHLH2PP_S0', 'CGMHLH1P_S0', 'CHMFLH1P_S0', 'CHMGLH1M_S0', 'CHMHLH3MPP_S2a', 'CHMHLH3PMP_S0', 'CHMHLH4_S0']
+    pattern con questa occorrenza 17
+
+    occorrenza 12:	 pattern ['CHMHLH1M_S0']
+    pattern con questa occorrenza 1
+
+    occorrenza 4:	 pattern ['CHMHLH2PP_S0']
+    pattern con questa occorrenza 1
+
+M1 ha come peso 9 quindi avremo probabilita P(M1)=9/(9+18+17+8+3+1)≈0.160
+
+diz_multipli
+{
+    'M1': 9, P(M1)=9/56
+    'M2': 18, P(M2)=18/(9+18+17+8+3+1)≈0.321
+    'M3': 17, P(M3)=17/(9+18+17+8+3+1)≈0.303
+    'M4': 8, P(M4)=8/(9+18+17+8+3+1)≈0.142
+    'M5': 3, P(M5)=3/(9+18+17+8+3+1)≈0.053
+    'M26': 1, P(M26)=1/(9+18+17+8+3+1)≈0.017
+    
+    'S1': 9, 9/(9+31+24+11+9+7)≈0.098
+    'S2': 31, 31/(9+31+24+11+9+7)≈0.340
+    'S3': 24, 24/(9+31+24+11+9+7)≈0.263
+    'S4': 11, 11/(9+31+24+11+9+7)≈0.120
+    'S5': 9, 9/(9+31+24+11+9+7)≈0.098
+    'S6': 5, 5/(9+31+24+11+9+7)≈0.054
+    'S7': 1, 1/(9+31+24+11+9+7)≈0.010
+    'S9': 1, 1/(9+31+24+11+9+7)≈0.010
+    
+    'T1': 13, 13/(13+24+10+9+4+10+2)≈0.180
+    'T2': 24, 24/(13+24+10+9+4+10+2)≈0.333
+    'T3': 10, 10/(13+24+10+9+4+10+2)≈0.138
+    'T4': 9, 9/(13+24+10+9+4+10+2)≈0.125
+    'T5': 4, 4/(13+24+10+9+4+10+2)≈0.055
+    'T6': 2, 2/(13+24+10+9+4+10+2)≈0.027
+    'T7': 2, 2/(13+24+10+9+4+10+2) ≈0.027
+    'T8': 2, 2/(13+24+10+9+4+10+2)≈0.027
+    'T10': 2, 2/(13+24+10+9+4+10+2)≈0.027
+    'T11': 1, 1/(13+24+10+9+4+10+2)≈0.013
+    'T12': 1, 1/(13+24+10+9+4+10+2)≈0.013
+    'T14': 2,  2/(13+24+10+9+4+10+2)≈0.027
+}
+
+valori_mensile=[2,3,4,5,6,27] #valori da cui scegliere se abbiamo CH
+percentuali_mensile=[9/56 ,18/56 ,17/56 ,8/56 ,3/56 ,1/56 ] #percentuali (somma=1)
+
+valori_trimestrale=[2,3,4,5,6,7,8,10] #valori da cui scegliere se abbiamo MH
+percentuali_trimestrale=[9/91 ,31/91 ,24/91 ,11/91 ,9/91 ,5/91 ,1/91 ,1/91 ] 
+
+valori_semestrale=[2,3,4,5,6,7,8,9,11,12,13,15] #valori da cui scegliere se abbiamo LH
+percentuali_semestrale=[ 13/72, 24/72, 10/72, 9/72, 4/72, 2/72, 2/72, 2/72, 2/72, 1/72, 1/72, 2/72] 
+
+
+generazione degli array per 
+
+periodo1
+[1, 23, 4, 1, 24, 5, 25, 1, 1, 12, 1, 1, 26, 1, 1, 1, 1, 12, 1, 1, 1, 4, 27, 28, 1, 1, 26, 1]
+x matlab
+[1, 2, 4, 1, 3, 5, 6, 1, 1, 7, 1, 1, 8, 1, 1, 1, 1, 7, 1, 1, 1, 4, 9, 10, 1, 1, 8, 1]
+
+stato[1, 2, 2, 1, 2, 2, 2, 1, 1, 2, 1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 1, 2, 2, 2, 1, 1, 2, 1]
+
+periodo2
+[69, 1, 1, 4, 1, 1, 1, 1, 12, 70, 71, 72, 1, 4, 73, 1, 1, 16, 1, 1, 1, 1, 1, 1, 1, 74, 75, 10]
+x matlab
+[2, 1, 1, 4, 1, 1, 1, 1, 3, 5, 6, 7, 1, 4, 8, 1, 1, 9, 1, 1, 1, 1, 1, 1, 1, 11, 12, 10]
+
+stato[2, 1, 1, 2, 1, 1, 1, 1, 2, 2, 2, 2, 1, 2, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2]
+
+periodo3
+[54, 1, 12, 55, 1, 23, 56, 19, 57, 58, 1, 59, 1, 18, 10, 60, 57, 61, 1, 1, 62, 63, 60, 64, 65, 66, 1, 1]
+x matlab
+[2, 1, 3, 4, 1, 5, 6, 7, 8, 9, 1, 10, 1, 11, 12, 13, 8, 14, 1, 1, 15, 16, 13, 17, 18, 19, 1, 1]
+
+stato[2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 1, 1]
+
